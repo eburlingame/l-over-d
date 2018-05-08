@@ -2,15 +2,15 @@ toc:
   - title: Regulations
     subfolderitems:
       - page: Pracital Test Standards
-        url: /pages/regulations/pts
+        url: pages/regulations/pts
       - page: Certificates and Documents
-        url: /pages/regulations/certs
+        url: pages/regulations/certs
       - page: Weather Briefings
-        url: /pages/regulations/wx_brief
+        url: pages/regulations/wx_brief
       - page: Aeromedical Factors
-        url: /pages/regulations/pts
+        url: pages/regulations/pts
       - page: Airspace
-        url: /pages/regulations/pts
+        url: pages/regulations/pts
   - title: Systems
     subfolderitems:
       - page: Pitot-Static Instruments

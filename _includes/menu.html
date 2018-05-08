@@ -8,7 +8,7 @@
 		  {{ item.title }} <i class="dropdown icon"></i>
 		  <div class="menu">
 		    {% for entry in item.subfolderitems %}
-		        <a href="{{ entry.url }}" class="item">{{ entry.page }}</a>
+		        <a href="{{site.baseurl}}/{{ entry.url }}" class="item">{{ entry.page }}</a>
 		    {% endfor %}
 		  </div>
 		</div>

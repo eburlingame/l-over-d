@@ -4,14 +4,11 @@
 permalink:           pretty
 
 # Setup
-title:               V<sub>x</sub>
+title:               L/D
 tagline:             'Online ground school resource'
 description:         'A concise yet comprehensive review of topics related to the private pilot oral and written exam.'
-url:                 http://vx.ericburlingame.com
-baseurl:             http://ericburlingame.com/l-over-d/
-gems: 		           [jekyll-paginate]
-paginate:            5
-paginate_path: 	     "page:num"
+url:                 http://ericburlingame.com/l-over-d/
+baseurl:             
 
 defaults:
   - scope:
