@@ -7,8 +7,8 @@ permalink:           pretty
 title:               L/D
 tagline:             'Online ground school resource'
 description:         'A concise yet comprehensive review of topics related to the private pilot oral and written exam.'
-url:                 http://ericburlingame.com/l-over-d/
-baseurl:             
+url:                 http://ericburlingame.com/
+baseurl:             /l-over-d/
 
 defaults:
   - scope:
