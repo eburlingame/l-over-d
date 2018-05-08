@@ -1,0 +1,29 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               V<sub>x</sub>
+tagline:             'Online ground school resource'
+description:         'A concise yet comprehensive review of topics related to the private pilot oral and written exam.'
+url:                 http://vx.ericburlingame.com
+baseurl:             ''
+gems: 		           [jekyll-paginate]
+paginate:            5
+paginate_path: 	     "page:num"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: true
+
+# About/contact
+author:
+  name:              Eric Burlingame
+  url:               https://ericburlingame.com/
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             1.0.0
