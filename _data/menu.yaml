@@ -1,49 +1,51 @@
 toc:
+  - title: Home
+    url: /
   - title: Regulations
     subfolderitems:
-      - page: Pracital Test Standards
+      - title: Pracital Test Standards
         url: pages/regulations/pts
-      - page: Certificates and Documents
+      - title: Certificates and Documents
         url: pages/regulations/certs
-      - page: Weather Briefings
+      - title: Weather Briefings
         url: pages/regulations/wx_brief
-      - page: Aeromedical Factors
+      - title: Aeromedical Factors
         url: pages/regulations/pts
-      - page: Airspace
+      - title: Airspace
         url: pages/regulations/pts
   - title: Systems
     subfolderitems:
-      - page: Pitot-Static Instruments
+      - title: Pitot-Static Instruments
         url: /piece1.html
-      - page: Variometers
+      - title: Variometers
         url: /piece2.html
-      - page: Magnetic Compass
+      - title: Magnetic Compass
         url: /piece3.html
   - title: Weather
     subfolderitems:
-      - page: Soaring Weather
+      - title: Soaring Weather
         url: /widget1.html
-      - page: Soaring Weather Products
+      - title: Soaring Weather Products
         url: /widget2.html
   - title: Performance
     subfolderitems:
-      - page: General Aerodynamics
+      - title: General Aerodynamics
         url: /widget1.html
-      - page: Glide Polars
+      - title: Glide Polars
         url: /widget2.html
   - title: Operations
     subfolderitems:
-      - page: Preflight and ground ops
+      - title: Preflight and ground ops
         url: /widget1.html
-      - page: Launch and recovery
+      - title: Launch and recovery
         url: /widget2.html
-      - page: Abnormal and emergency procedures
+      - title: Abnormal and emergency procedures
         url: /widget3.html
-      - page: Towing
+      - title: Towing
         url: /widget3.html
   - title: Soaring
     subfolderitems:
-      - page: Thermalling
+      - title: Thermalling
         url: /widget1.html
-      - page: Cross country planning
+      - title: Cross country planning
         url: /widget2.html

@@ -1,17 +1,23 @@
 
 
 <div class="ui small menu">
-
+  
   {% for item in site.data.menu.toc %}
 	<div class="menu">
+    {% if item.subfolderitems %}
 		<div class="ui dropdown item">
 		  {{ item.title }} <i class="dropdown icon"></i>
 		  <div class="menu">
 		    {% for entry in item.subfolderitems %}
-		        <a href="{{site.baseurl}}/{{ entry.url }}" class="item">{{ entry.page }}</a>
+		        <a href="{{site.baseurl}}/{{ entry.url }}" class="item">{{ entry.title }}</a>
 		    {% endfor %}
 		  </div>
 		</div>
+    {% else %}
+      <div class="menu">
+        <a href="{{site.baseurl}}/{{ item.url }}" class="item">{{ item.title }}</a>
+      </div>
+    {% endif %}
 	</div>
   {% endfor %}
 

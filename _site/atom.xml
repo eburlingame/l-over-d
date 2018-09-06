@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>L/D</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2018-05-07T21:45:44-07:00</updated>
+ <link href="http://localhost:4000/l-over-d//atom.xml" rel="self"/>
+ <link href="http://localhost:4000/l-over-d//"/>
+ <updated>2018-09-05T18:22:10-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Eric Burlingame</name>
@@ -16,7 +16,7 @@
    <title>Flight Instruments</title>
    <link href="http://localhost:4000/2018/05/07/Flight-Instruments/"/>
    <updated>2018-05-07T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2018/05/07/Flight-Instruments</id>
+   <id>http://localhost:4000/l-over-d//2018/05/07/Flight-Instruments</id>
    <content type="html">&lt;h1 id=&quot;pitot-static-instruments&quot;&gt;Pitot-Static Instruments&lt;/h1&gt;
 
 &lt;h2 id=&quot;altimeter&quot;&gt;Altimeter&lt;/h2&gt;
@@ -231,7 +231,7 @@
    <title>Example content</title>
    <link href="http://localhost:4000/2014/01/01/example-content/"/>
    <updated>2014-01-01T00:00:00-08:00</updated>
-   <id>http://localhost:4000/2014/01/01/example-content</id>
+   <id>http://localhost:4000/l-over-d//2014/01/01/example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
@@ -364,7 +364,7 @@
    <title>What's Jekyll?</title>
    <link href="http://localhost:4000/2013/12/31/whats-jekyll/"/>
    <updated>2013-12-31T00:00:00-08:00</updated>
-   <id>http://localhost:4000/2013/12/31/whats-jekyll</id>
+   <id>http://localhost:4000/l-over-d//2013/12/31/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
