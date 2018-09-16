@@ -1,0 +1,51 @@
+toc:
+  - title: Home
+    url: /
+  - title: Regulations
+    subfolderitems:
+      - title: Pracital Test Standards
+        url: pages/regulations/pts
+      - title: Certificates and Documents
+        url: pages/regulations/certs
+      - title: Weather Briefings
+        url: pages/regulations/wx_brief
+      - title: Aeromedical Factors
+        url: pages/regulations/pts
+      - title: Airspace
+        url: pages/regulations/pts
+  - title: Systems
+    subfolderitems:
+      - title: Pitot-Static Instruments
+        url: /piece1.html
+      - title: Variometers
+        url: /piece2.html
+      - title: Magnetic Compass
+        url: /piece3.html
+  - title: Weather
+    subfolderitems:
+      - title: Soaring Weather
+        url: /widget1.html
+      - title: Soaring Weather Products
+        url: /widget2.html
+  - title: Performance
+    subfolderitems:
+      - title: General Aerodynamics
+        url: /widget1.html
+      - title: Glide Polars
+        url: /widget2.html
+  - title: Operations
+    subfolderitems:
+      - title: Preflight and ground ops
+        url: /widget1.html
+      - title: Launch and recovery
+        url: /widget2.html
+      - title: Abnormal and emergency procedures
+        url: /widget3.html
+      - title: Towing
+        url: /widget3.html
+  - title: Soaring
+    subfolderitems:
+      - title: Thermalling
+        url: /widget1.html
+      - title: Cross country planning
+        url: /widget2.html

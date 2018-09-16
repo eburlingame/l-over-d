@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<a href="{{ site.baseurl }}">
+	<img src="{{ site.baseurl }}public/img/glider.svg" />
+</a>
+
+{% include menu.html tree=site.data.glider.toc %}
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</div>

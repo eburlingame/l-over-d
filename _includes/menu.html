@@ -1,7 +1,7 @@
 
 <div class="ui small menu">
-  
-  {% for item in site.data.menu.toc %}
+
+  {% for item in include.tree %}
 	<div class="menu">
     {% if item.subfolderitems %}
 		<div class="ui dropdown item">
