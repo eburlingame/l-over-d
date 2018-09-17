@@ -1,51 +1,45 @@
 toc:
   - title: Home
-    url: /
+    url: pages/airplane
+  - title: Aircraft
+    url: pages/airplane/aircraft/
+    subfolderitems: 
+      - title: Aerodynamics
+        url: pages/airplane/aircraft/aerodynamics
+      - title: Flight Instruments
+        url: pages/airplane/aircraft/flight-instruments
+      - title: Airplane Systems
+        url: pages/airplane/aircraft/airplane-systems
+      - title: Aircraft Performance
+        url: pages/airplane/aircraft/performance
   - title: Regulations
-    subfolderitems:
-      - title: Pracital Test Standards
-        url: pages/regulations/pts
-      - title: Certificates and Documents
-        url: pages/regulations/certs
-      - title: Weather Briefings
-        url: pages/regulations/wx_brief
-      - title: Aeromedical Factors
-        url: pages/regulations/pts
+    url: pages/airplane/regulations/
+    subfolderitems: 
       - title: Airspace
-        url: pages/regulations/pts
-  - title: Systems
-    subfolderitems:
-      - title: Pitot-Static Instruments
-        url: /piece1.html
-      - title: Variometers
-        url: /piece2.html
-      - title: Magnetic Compass
-        url: /piece3.html
+        url: pages/airplane/regulations/airspace
+      - title: Airworthiness
+        url: pages/airplane/regulations/airworthiness
+      - title: Currency
+        url: pages/airplane/regulations/currency
+      - title: Flight Operations
+        url: pages/airplane/regulations/flight-operations
+      - title: Medical Factors
+        url: pages/airplane/regulations/medical-factors
   - title: Weather
-    subfolderitems:
-      - title: Soaring Weather
-        url: /widget1.html
-      - title: Soaring Weather Products
-        url: /widget2.html
-  - title: Performance
-    subfolderitems:
-      - title: General Aerodynamics
-        url: /widget1.html
-      - title: Glide Polars
-        url: /widget2.html
-  - title: Operations
-    subfolderitems:
-      - title: Preflight and ground ops
-        url: /widget1.html
-      - title: Launch and recovery
-        url: /widget2.html
-      - title: Abnormal and emergency procedures
-        url: /widget3.html
-      - title: Towing
-        url: /widget3.html
-  - title: Soaring
-    subfolderitems:
-      - title: Thermalling
-        url: /widget1.html
-      - title: Cross country planning
-        url: /widget2.html
+    url: pages/airplane/weather/
+    subfolderitems: 
+      - title: Weather Theory
+        url: pages/airplane/weather/weather-theory
+      - title: Weather Services
+        url: pages/airplane/weather/weather-services
+  - title: Procedures
+    url: pages/airplane/procedures/
+    subfolderitems: 
+      - title: Maneuvers
+        url: pages/airplane/procedures/maneuvers
+      - title: Traffic Patterns
+        url: pages/airplane/procedures/traffic-patterns
+      - title: Navigation
+        url: pages/airplane/procedures/navigation
+      - title: Emergencies
+        url: pages/airplane/procedures/emergencies
