@@ -135,7 +135,164 @@
 
 <div class="page">
   <h1 class="page-title">Fight Operations</h1>
-  
+  <h2 id="aircraft-categories-and-classes">Aircraft Categories and Classes</h2>
+
+<p>The FARs regulate aircraft differently based on their category.</p>
+
+<p>Aircraft categories:</p>
+
+<ul>
+  <li>Airplanes</li>
+  <li>Rotorcraft</li>
+  <li>Powered-lift</li>
+  <li>Gliders</li>
+  <li>Lighter-than-air</li>
+  <li>Weight-shift control</li>
+  <li>Powered parachute</li>
+</ul>
+
+<p>The airplane and rotorcraft categories are further broken down into <em>classes</em></p>
+
+<ul>
+  <li>Airplane category
+    <ul>
+      <li>Single Engine Land (SEL)</li>
+      <li>Multi-Engine Land (MEL)</li>
+      <li>Single-Engine Sea (SES)</li>
+      <li>Multi-Engine Sea (MES)</li>
+    </ul>
+  </li>
+  <li>Rotorcraft:
+    <ul>
+      <li>Helicopters</li>
+      <li>Gyrocopters</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="right-of-way-rules">Right-of-Way Rules</h3>
+
+<ul>
+  <li>Aircraft in distress have right of way over any other aircraft</li>
+  <li>All powered aircraft must give way to balloons, and all heavier-than-air aircraft must give way to all lighter-than-air vehicles</li>
+  <li>
+    <p>Any aircraft that is refueling or towing another aircraft has right-of-way over all other powered aircraft</p>
+  </li>
+  <li>If two aircraft are approaching head on at the same altitude, then each aircraft shall alter course to the right.</li>
+  <li>If two aircraft are converging at the same altitude, the aircraft on the right has the right-of-way.</li>
+  <li>If an aircraft is over-taking another aircraft then they shall do so by passing on the right</li>
+  <li>Aircraft landing have right-of-way over aircraft over all other aircraft in the air or on the ground</li>
+  <li>If two aircrafts are approaching to land, the aircraft at the lower altitude has right-of-way
+    <ul>
+      <li>Pilots shall not take advantage of this rule to cut in front of another aircraft.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="light-gun-signals">Light-Gun Signals</h2>
+
+<p>In the event of a radio failure, you may be required to use light-gun signals to receive directions from a towered airport.</p>
+
+<ul>
+  <li>If you suspect that your radio receiver has failed, broadcast over the radio and request light-gun signals from the tower.</li>
+  <li>If both your receiver and transmitter has failed:
+    <ul>
+      <li>Stay outside and above the traffic pattern and observe the flow of traffic</li>
+      <li>Squawk 7500</li>
+      <li>Join the traffic pattern and watch for lightgun signals</li>
+      <li>Acknowledge the signals by rocking your wings</li>
+    </ul>
+  </li>
+</ul>
+
+<table class="ui table">
+	<thead>
+		<tr>
+			<th>Signal</th>
+			<th></th>
+			<th>On the Ground</th>
+			<th>In the Air</th>
+		</tr>
+	</thead>
+	<tr>
+		<style type="text/css">
+			.lightgun {
+				height: 15px;
+				width: 15px;
+				border-radius: 10px;
+				display: inline-block;
+				border: 1px solid black;
+			}
+			@keyframes flashing_green {
+				0% { background-color: white; }
+				50% { background-color: green; }
+				100% { background-color: white; }
+			}
+			@keyframes flashing_red {
+				0% { background-color: white; }
+				50% { background-color: red; }
+				100% { background-color: white; }
+			}
+			@keyframes flashing_white {
+				0% { background-color: white; }
+				50% { background-color: #DDD; }
+				100% { background-color: white; }
+			}
+			@keyframes red_green {
+				0% { background-color: red; }
+				50% { background-color: green; }
+				100% { background-color: red; }
+			}
+		</style>
+		<td>Steady Green</td>
+		<td>
+			<div class="lightgun" style="background-color: green" />
+		</td>
+		<td>Cleared for takeoff</td>
+		<td>Cleared to land</td>
+	</tr>
+	<tr>
+		<td>Flashing Green</td>
+		<td>
+			<div class="lightgun" style="animation: flashing_green 1500ms infinite ease-in-out;"> </div>
+		</td>
+		<td>Cleared to taxi</td>
+		<td>Return for landing</td>
+	</tr>
+	<tr>
+		<td>Steady Red</td>
+		<td>
+			<div class="lightgun" style="background-color: green" />
+		</td>
+		<td>STOP</td>
+		<td>Continue circling</td>
+	</tr>
+	<tr>
+		<td>Flashing Red</td>
+		<td>
+			<div class="lightgun" style="animation: flashing_red 1500ms infinite ease-in-out;"> </div>
+		</td>
+		<td>Taxi clear of the active</td>
+		<td>Airport unsafe</td>
+	</tr>
+	<tr>
+		<td>Flashing White</td>
+		<td>
+			<div class="lightgun" style="animation: flashing_white 1500ms infinite ease-in-out;"> </div>
+		</td>
+		<td>Return to parking area</td>
+		<td>N/A</td>
+	</tr>
+	<tr>
+		<td>Alternating red and green</td>
+		<td>
+			<div class="lightgun" style="animation: red_green 1500ms infinite ease-in-out;"> </div>
+		</td>
+		<td>Use extreme caution</td>
+		<td>Use extreme caution</td>
+	</tr>
+
+</table>
 
 </div>
 
