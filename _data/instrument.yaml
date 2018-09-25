@@ -1,0 +1,23 @@
+toc:
+  - title: Home
+    url: pages/instrument
+  - title: Instrument Flying
+    url: pages/instrument/flying/
+    subfolderitems: 
+      - title: Attitude Flying
+        url: pages/instrument/flying/attitude_flying
+  - title: Weather
+    url: pages/instrument/weather/
+    subfolderitems: 
+      - title: Weather Service
+        url: pages/instrument/weather/service
+  - title: Enroute
+    url: pages/instrument/enroute/
+    subfolderitems: 
+      - title: Airways
+        url: pages/instrument/enroute/airways
+  - title: Approaches
+    url: pages/instrument/approaches/
+    subfolderitems: 
+      - title: Maneuvers
+        url: pages/instrument/approaches/
