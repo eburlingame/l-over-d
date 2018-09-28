@@ -6,6 +6,13 @@ toc:
     subfolderitems: 
       - title: Attitude Flying
         url: pages/instrument/flying/attitude_flying
+  - title: Systems
+    url: pages/instrument/systems/
+    subfolderitems: 
+      - title: Flight Insturments
+        url: pages/instrument/systems/insturments
+      - title: EFBs
+        url: pages/instrument/systems/efbs
   - title: Weather
     url: pages/instrument/weather/
     subfolderitems: 

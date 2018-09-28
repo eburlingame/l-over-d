@@ -3,6 +3,9 @@ layout: instrument
 title: Attitude Flying
 ---
 
+## Reference Materials
+
+- [A great article about the FAA's methodology toward attitude flying](https://www.avweb.com/news/airman/184208-1.html)
 
 ## Instrument Scan 
 
@@ -24,7 +27,7 @@ title: Attitude Flying
 		- Common with altimeter while leveling-off after climb
 		- Also common with the heading indicator when rolling out of a turn
 
-<table class='ui table'>
+<table class='ui celled striped table'>
 	<thead>
 		<tr>
 			<th>Pitch</th>
@@ -57,14 +60,13 @@ title: Attitude Flying
 
 ## Fundamental Maneuvers
 
-
 ### Straight and Level
 
 - Different pitch and power setting will produce straight and level flight at different airspeeds
 
 Instrument focus in straight-and-level flight: 
 
-<table class='ui table'>
+<table class='ui celled striped table'>
 	<thead>
 		<tr>
 			<th colspan="2">Pitch</th>
@@ -139,7 +141,7 @@ We use the horizontal pitch bar on the attitude indicator to correct deviations 
 	- Lead the level off by ~10% of the rate of descent
 	- E.g. for a descent of 500 fpm, start leveling off 50 feet above the target altitude
 
-<table class='ui table'>
+<table class='ui celled striped table'>
 	<thead>
 		<tr>
 			<th colspan="2">Pitch</th>
@@ -179,7 +181,7 @@ We use the horizontal pitch bar on the attitude indicator to correct deviations 
 - Use the airspeed indicator as the primary **power** instrument
 
 
-<table class='ui table'>
+<table class='ui celled striped table'>
 	<thead>
 		<tr>
 			<th colspan="2">Pitch</th>
@@ -207,6 +209,57 @@ We use the horizontal pitch bar on the attitude indicator to correct deviations 
 	</tr>
 </table>
 
+
+### Turns
+
+- The faster your airplane, the steeper the bank that is required for a standard rate turn
+- Know the bank angle required for a standard rate turn
+- You can estimate the bank needed by dividing the *TAS* in knots by 10, and then adding 7
+
+#### Timed Turns
+
+- To check the turn indicator:
+	- *Establish* a standard rate turn
+	- Start your timer when on a cardinal header
+	- After 1 minute, you should have turned 180 degrees (3 degrees per second)
+- For a timed turn, divide the number of degrees you wish to turn by three (e.g. for 60 degrees to the right, you'll want 20 seconds)
+	- You will turn some amount during the roll in to the turn; this amount is usually between 1/3 and 1/2 the degrees of *bank* used
+	- After the set amount of time, roll out of the turn
+
+#### Steep Turns
+
+- Steep turns require a rapid scan
+- They will often require additional power to maintain altitude
+
+#### Instruments 
+
+<table class='ui celled striped table'>
+	<thead>
+		<tr>
+			<th colspan="2">Pitch</th>
+			<th colspan="2">Bank</th>
+		</tr>
+		<tr>
+			<th>Primary</th>
+			<th>Secondary</th>
+			<th>Primary</th>
+			<th>Secondary</th>
+		</tr>
+	</thead>
+	<tr>
+		<td>Altimeter</td>
+		<td>
+			<ul>
+				<li>Attitude Indicator</li>
+				<li>Vertical Speed Indicator</li>
+			</ul> 
+		</td>
+		<td>Turn Coordinator</td>
+		<td>
+			Attitude Indicator
+		</td>
+	</tr>
+</table>
 
 ## Flying in Turbulence
 
