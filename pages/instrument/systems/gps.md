@@ -32,3 +32,12 @@ title: GPS
 	- A minimum of 5 GPS satellites in view
 	- 4 GPS satellites in view with a barometric altitude input
 	- 4 GPS satellites in view plus one WAAS GPS
+
+
+## Navigator Fields 
+
+- Common User-Fields on GPSes:
+	- BRG: Bearing to your next wapoint
+	- TRK: Your current GPS track over the ground
+	- DTK: Desired track, the track from your previous waypoint to the next
+	- XTK: Cross-track error, distance (in miles) off course
