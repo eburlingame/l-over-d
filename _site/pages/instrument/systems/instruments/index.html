@@ -34,93 +34,128 @@
 
 
   <body>
-
-    <div class="ui container">
-      <a href="/l-over-d/">
+    <div class="pusher">
+      <div class="ui container">
+        <a href="/l-over-d/" class='headerImg'>
 	<img src="/l-over-d/public/img/panel.svg" />
 </a>
 
 
-<div class="ui small menu">
+<div class="ui vertical inverted sidebar menu">
+	
+		<a href="/l-over-d//pages/instrument" class="item">
+			Home
+		</a>
+	
+		<a href="/l-over-d//pages/instrument/flying/" class="item">
+			Flying
+		</a>
+	
+		<a href="/l-over-d//pages/instrument/regulations/" class="item">
+			Regulations
+		</a>
+	
+		<a href="/l-over-d//pages/instrument/systems/" class="item">
+			Systems
+		</a>
+	
+		<a href="/l-over-d//pages/instrument/weather/" class="item">
+			Weather
+		</a>
+	
+</div>
 
-  
-	<div class="menu">
-    
-      <div class="menu">
-        <a href="/l-over-d//pages/instrument" class="item">Home</a>
-      </div>
-    
-	</div>
-  
-	<div class="menu">
-    
-		<div class="ui dropdown item">
-		  Flying <i class="dropdown icon"></i>
-		  <div class="menu">
-		    
-		        <a href="/l-over-d//pages/instrument/flying/attitude_flying" class="item">Attitude Flying</a>
-		    
-		  </div>
-		</div>
-    
-	</div>
-  
-	<div class="menu">
-    
-		<div class="ui dropdown item">
-		  Regulations <i class="dropdown icon"></i>
-		  <div class="menu">
-		    
-		        <a href="/l-over-d//pages/instrument/regulations/atc-services" class="item">ATC Services</a>
-		    
-		        <a href="/l-over-d//pages/instrument/regulations/departures" class="item">Departures</a>
-		    
-		        <a href="/l-over-d//pages/instrument/regulations/enroute" class="item">Enroute</a>
-		    
-		        <a href="/l-over-d//pages/instrument/regulations/arrivals" class="item">Arrivals</a>
-		    
-		        <a href="/l-over-d//pages/instrument/regulations/approaches" class="item">Approaches</a>
-		    
-		  </div>
-		</div>
-    
-	</div>
-  
-	<div class="menu">
-    
-		<div class="ui dropdown item">
-		  Systems <i class="dropdown icon"></i>
-		  <div class="menu">
-		    
-		        <a href="/l-over-d//pages/instrument/systems/instruments" class="item">Flight Insturments</a>
-		    
-		        <a href="/l-over-d//pages/instrument/systems/gps" class="item">GPS</a>
-		    
-		        <a href="/l-over-d//pages/instrument/systems/efbs" class="item">EFBs</a>
-		    
-		  </div>
-		</div>
-    
-	</div>
-  
-	<div class="menu">
-    
-		<div class="ui dropdown item">
-		  Weather <i class="dropdown icon"></i>
-		  <div class="menu">
-		    
-		        <a href="/l-over-d//pages/instrument/weather/service" class="item">Weather Service</a>
-		    
-		  </div>
-		</div>
-    
-	</div>
-  
+<div class="ui small menu">
+	<a class="toc item">
+	  <i class="sidebar icon"></i>
+	</a>
+
+	<a class='menuImage' href="/l-over-d/">
+		<img src="/l-over-d/public/img/panel.svg" />
+	</a>
+
+	
+
+		
+			<div class="menu">
+				<a href="/l-over-d//pages/instrument" class="item">Home</a>
+			</div>
+		
+
+	
+
+		
+			<div class="ui dropdown item">
+				Flying <i class="dropdown icon"></i>
+			<div class="menu">
+				
+		    		<a href="/l-over-d//pages/instrument/flying/attitude_flying" class="item">Attitude Flying</a>
+			
+			</div>
+			</div>
+		
+
+	
+
+		
+			<div class="ui dropdown item">
+				Regulations <i class="dropdown icon"></i>
+			<div class="menu">
+				
+		    		<a href="/l-over-d//pages/instrument/regulations/atc-services" class="item">ATC Services</a>
+			
+		    		<a href="/l-over-d//pages/instrument/regulations/departures" class="item">Departures</a>
+			
+		    		<a href="/l-over-d//pages/instrument/regulations/enroute" class="item">Enroute</a>
+			
+		    		<a href="/l-over-d//pages/instrument/regulations/arrivals" class="item">Arrivals</a>
+			
+		    		<a href="/l-over-d//pages/instrument/regulations/approaches" class="item">Approaches</a>
+			
+			</div>
+			</div>
+		
+
+	
+
+		
+			<div class="ui dropdown item">
+				Systems <i class="dropdown icon"></i>
+			<div class="menu">
+				
+		    		<a href="/l-over-d//pages/instrument/systems/instruments" class="item">Flight Insturments</a>
+			
+		    		<a href="/l-over-d//pages/instrument/systems/gps" class="item">GPS</a>
+			
+		    		<a href="/l-over-d//pages/instrument/systems/efbs" class="item">EFBs</a>
+			
+			</div>
+			</div>
+		
+
+	
+
+		
+			<div class="ui dropdown item">
+				Weather <i class="dropdown icon"></i>
+			<div class="menu">
+				
+		    		<a href="/l-over-d//pages/instrument/weather/service" class="item">Weather Service</a>
+			
+			</div>
+			</div>
+		
+
+	
 
 </div>
 
 <script type="text/javascript">
-	$('.ui.dropdown').dropdown();
+	$(document).ready(() => {
+		$('.ui.dropdown').dropdown();
+		$('.ui.sidebar')
+			.sidebar('attach events', '.toc.item');
+	});
 </script>
 
 <div class="page">
@@ -214,6 +249,7 @@
 </ul>
 
 </div>
+      </div>
     </div>
 
 	<script type="text/javascript">

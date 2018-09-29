@@ -16,3 +16,41 @@ blockquote {
 	border-radius: 8px;
 	border: none;*/
 }
+
+.headerImg {
+	display: block !important;
+}
+
+.small.menu .toc.item {
+	display: none !important;
+}
+
+.small.menu .menuImage {
+	display: none !important;
+}
+
+.small.menu img {
+	margin-top: 5px;
+	height: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .headerImg {
+    display: none !important;
+  }
+  .small.menu .menuImage {
+    display: block !important;
+  }
+
+  .ui.fixed.menu {
+    display: none !important;
+  }
+
+  .small.menu .item,
+  .small.menu .menu {
+    display: none !important;
+  }
+  .small.menu .toc.item {
+    display: block !important;
+  }
+}

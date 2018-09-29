@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<a href="{{ site.baseurl }}">
+<a href="{{ site.baseurl }}" class='headerImg'>
 	<img src="{{ site.baseurl }}public/img/airplane.svg" />
 </a>
 
-{% include menu.html tree=site.data.airplane.toc %}
+{% include menu.html 
+	tree=site.data.airplane.toc
+	menuImage="airplane.svg" %}
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>

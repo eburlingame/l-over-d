@@ -1,27 +1,46 @@
 
-<div class="ui small menu">
+<div class="ui vertical inverted sidebar menu">
+	{% for item in include.tree %}
+		<a href="{{site.baseurl}}/{{ item.url }}" class="item">
+			{{ item.title }}
+		</a>
+	{% endfor %}
+</div>
 
-  {% for item in include.tree %}
-	<div class="menu">
-    {% if item.subfolderitems %}
-		<div class="ui dropdown item">
-		  {{ item.title }} <i class="dropdown icon"></i>
-		  <div class="menu">
-		    {% for entry in item.subfolderitems %}
-		        <a href="{{site.baseurl}}/{{ entry.url }}" class="item">{{ entry.title }}</a>
-		    {% endfor %}
-		  </div>
-		</div>
-    {% else %}
-      <div class="menu">
-        <a href="{{site.baseurl}}/{{ item.url }}" class="item">{{ item.title }}</a>
-      </div>
-    {% endif %}
-	</div>
-  {% endfor %}
+<div class="ui small menu">
+	<a class="toc item">
+	  <i class="sidebar icon"></i>
+	</a>
+
+	<a class='menuImage' href="{{site.baseurl}}">
+		<img src="{{ site.baseurl }}public/img/{{include.menuImage}}" />
+	</a>
+
+	{% for item in include.tree %}
+
+		{% if item.subfolderitems %}
+			<div class="ui dropdown item">
+				{{ item.title }} <i class="dropdown icon"></i>
+			<div class="menu">
+				{% for entry in item.subfolderitems %}
+		    		<a href="{{site.baseurl}}/{{ entry.url }}" class="item">{{ entry.title }}</a>
+			{% endfor %}
+			</div>
+			</div>
+		{% else %}
+			<div class="menu">
+				<a href="{{site.baseurl}}/{{ item.url }}" class="item">{{ item.title }}</a>
+			</div>
+		{% endif %}
+
+	{% endfor %}
 
 </div>
 
 <script type="text/javascript">
-	$('.ui.dropdown').dropdown();
+	$(document).ready(() => {
+		$('.ui.dropdown').dropdown();
+		$('.ui.sidebar')
+			.sidebar('attach events', '.toc.item');
+	});
 </script>
