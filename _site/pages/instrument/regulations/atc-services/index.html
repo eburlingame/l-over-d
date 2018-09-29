@@ -55,7 +55,7 @@
 	<div class="menu">
     
 		<div class="ui dropdown item">
-		  Instrument Flying <i class="dropdown icon"></i>
+		  Flying <i class="dropdown icon"></i>
 		  <div class="menu">
 		    
 		        <a href="/l-over-d//pages/instrument/flying/attitude_flying" class="item">Attitude Flying</a>
@@ -68,10 +68,33 @@
 	<div class="menu">
     
 		<div class="ui dropdown item">
+		  Regulations <i class="dropdown icon"></i>
+		  <div class="menu">
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/atc-services" class="item">ATC Services</a>
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/departures" class="item">Departures</a>
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/enroute" class="item">Enroute</a>
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/arrivals" class="item">Arrivals</a>
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/approaches" class="item">Approaches</a>
+		    
+		  </div>
+		</div>
+    
+	</div>
+  
+	<div class="menu">
+    
+		<div class="ui dropdown item">
 		  Systems <i class="dropdown icon"></i>
 		  <div class="menu">
 		    
-		        <a href="/l-over-d//pages/instrument/systems/insturments" class="item">Flight Insturments</a>
+		        <a href="/l-over-d//pages/instrument/systems/instruments" class="item">Flight Insturments</a>
+		    
+		        <a href="/l-over-d//pages/instrument/systems/gps" class="item">GPS</a>
 		    
 		        <a href="/l-over-d//pages/instrument/systems/efbs" class="item">EFBs</a>
 		    
@@ -93,32 +116,6 @@
     
 	</div>
   
-	<div class="menu">
-    
-		<div class="ui dropdown item">
-		  Enroute <i class="dropdown icon"></i>
-		  <div class="menu">
-		    
-		        <a href="/l-over-d//pages/instrument/enroute/airways" class="item">Airways</a>
-		    
-		  </div>
-		</div>
-    
-	</div>
-  
-	<div class="menu">
-    
-		<div class="ui dropdown item">
-		  Approaches <i class="dropdown icon"></i>
-		  <div class="menu">
-		    
-		        <a href="/l-over-d//pages/instrument/approaches/" class="item">Maneuvers</a>
-		    
-		  </div>
-		</div>
-    
-	</div>
-  
 
 </div>
 
@@ -128,23 +125,43 @@
 
 <div class="page">
   <h1 class="page-title">ATC Services</h1>
-  <ul>
+  <h2 id="the-pilots-role-in-the-system">The Pilot’s Role in the System</h2>
+
+<ul>
   <li>The controller will:
-    <ul>
-      <li>Give first priority to separating aircraft</li>
-    </ul>
+    <ol>
+      <li>Give first priority to:
+        <ul>
+          <li>Separating aircraft</li>
+          <li>Giving terrain, obstruction, and aircraft conflict alerts</li>
+        </ul>
+      </li>
+      <li>Second priority are given to <em>required</em> services that do not pertain to aircraft separation</li>
+      <li>Additional service, to the extent possible</li>
+    </ol>
   </li>
   <li>The pilot in command:
     <ul>
       <li>Has the responsibility to see and avoid other aircraft, terrain, and obstacles when in VFR conditions</li>
     </ul>
   </li>
+  <li><a href="https://www.law.cornell.edu/cfr/text/14/91.3">Part 91.3</a>
+    <blockquote>
+      <p>§ 91.3 Responsibility and authority of the pilot in command.</p>
+      <ol>
+        <li>The pilot in command of an aircraft is directly responsible for, and is the final authority as to, the operation of that aircraft.</li>
+        <li>In an in-flight emergency requiring immediate action, the pilot in command may deviate from any rule of this part to the extent required to meet that emergency.</li>
+        <li>Each pilot in command who deviates from a rule under paragraph (b) of this section shall, upon the request of the Administrator, send a written report of that deviation to the Administrator.</li>
+      </ol>
+    </blockquote>
+  </li>
+  <li>Note that a controller can declare an emergency on your behalf, if they feel the situation is getting unsafe.</li>
 </ul>
 
 <h2 id="required-separation">Required Separation</h2>
 
 <ul>
-  <li>Within 40nm form an attenna
+  <li>Within 40nm form an antenna
     <ul>
       <li>The separation from other aircraft can be as little as 5nm</li>
       <li>The separation from obstructions can be as little as 3nm</li>
@@ -186,6 +203,130 @@
 </blockquote>
 
 <p>Note if you are <em>not</em> flying on an airway, the fixes used to define the route become compulsory reporting points.</p>
+
+<h2 id="flying-ifr">Flying IFR</h2>
+
+<blockquote>
+  <p>You must file an IFR flight plan and receive and ATC clearance before entering controlled airspace in instrument meteorological conditions.</p>
+</blockquote>
+
+<p>However, you are on your own in uncontrolled (Class G) airspace.</p>
+
+<p>Areas around airports are controlled by a TRACON (Terminal Radar Approach Control).</p>
+<ul>
+  <li>TRACONs airspace will usually extend to 10,000-12,000 feet</li>
+  <li>
+    <p>Traffic into airport not covered by a TRACON will be controlled by the Center.</p>
+  </li>
+  <li>If there is no control tower on the field, <em>you</em> must close your flight plan after arrival. (Through ATC or flight service)</li>
+</ul>
+
+<p>Note: Center’s UHF frequencies are used by the military.</p>
+
+<ul>
+  <li>ATC will vector you with a headings that already have a wind-correction applied to it.
+    <ul>
+      <li>If you are using GPS track for your navigation (for instance in a partial panel situation), advise the control to give you uncorrected heading vectors</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="atc-calls">ATC Calls</h2>
+
+<ol>
+  <li>Who you are calling (Seattle Center)</li>
+  <li>Who you are (N12382)</li>
+  <li>Your message (three thousand climbing niner thousand)</li>
+</ol>
+
+<ul>
+  <li>Don’t do these things
+    <ul>
+      <li>Don’t say “with you”</li>
+      <li>Don’t reply “roger” without a readback</li>
+      <li>Don’t reference a instrument fix at a non-towered airport</li>
+      <li>No “Any traffic in the area please advise”</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="loss-of-communication">Loss of Communication</h2>
+
+<p>If you lose communication in IMC:</p>
+
+<ul>
+  <li>Fly the route:
+    <ol>
+      <li>Last assigned by ATC</li>
+      <li>The <em>expected</em> route in a further clearance</li>
+      <li>Route <em>filed</em> in the flight plan</li>
+    </ol>
+  </li>
+  <li>Fly the altitude:
+    <ol>
+      <li>Last assigned by ATC</li>
+      <li>Minimum enroute altitude (MEA)</li>
+      <li>Expected altitude in a further clearance</li>
+    </ol>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Set your transponder to 7600.</p>
+</blockquote>
+
+<h2 id="required-ifr-reports">Required IFR Reports</h2>
+
+<ul>
+  <li>Unforeseen stuff
+    <ul>
+      <li>All hazardous and/or unforecast weather</li>
+      <li>Safety information</li>
+      <li>Avionics malfunctions</li>
+      <li>Clearance deviation</li>
+      <li>If you are below the legal fuel requirement, advise a “minimum fuel status” 	- This is not an emergency</li>
+    </ul>
+  </li>
+  <li>Altitude
+    <ul>
+      <li>Leaving an altitude for a new altitude</li>
+      <li>Altitude change when flying VFR on top</li>
+    </ul>
+  </li>
+  <li>Performance
+    <ul>
+      <li>When you can’t maintain a 500 FPM climb</li>
+      <li>Airspeed varies by 5% or 10 knots (whichever is greater)</li>
+    </ul>
+  </li>
+  <li>Holds
+    <ul>
+      <li>Time an altitude when reaching an assigned holding fix</li>
+      <li>When leaving a holding fix</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="when-not-in-radar-contact">When not in radar contact</h3>
+
+<ul>
+  <li>Time and altitude when passing <em>mandatory reporting points</em></li>
+  <li>If you are going to miss your estimated time at the <em>next</em> reporting point, you have to call</li>
+  <li>Leaving the FAF inbound on a non-precision approach</li>
+  <li>Leaving the outer marker on a precision approach</li>
+</ul>
+
+<h2 id="ifr-clearances">IFR Clearances</h2>
+
+<blockquote>
+  <ul>
+    <li><strong>C</strong>leared to</li>
+    <li><strong>R</strong>outing</li>
+    <li><strong>A</strong>ltitude</li>
+    <li><strong>F</strong>requency</li>
+    <li><strong>T</strong>ransponder (squawk code)</li>
+  </ul>
+</blockquote>
 
 </div>
     </div>

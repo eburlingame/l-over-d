@@ -55,7 +55,7 @@
 	<div class="menu">
     
 		<div class="ui dropdown item">
-		  Instrument Flying <i class="dropdown icon"></i>
+		  Flying <i class="dropdown icon"></i>
 		  <div class="menu">
 		    
 		        <a href="/l-over-d//pages/instrument/flying/attitude_flying" class="item">Attitude Flying</a>
@@ -68,10 +68,33 @@
 	<div class="menu">
     
 		<div class="ui dropdown item">
+		  Regulations <i class="dropdown icon"></i>
+		  <div class="menu">
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/atc-services" class="item">ATC Services</a>
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/departures" class="item">Departures</a>
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/enroute" class="item">Enroute</a>
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/arrivals" class="item">Arrivals</a>
+		    
+		        <a href="/l-over-d//pages/instrument/regulations/approaches" class="item">Approaches</a>
+		    
+		  </div>
+		</div>
+    
+	</div>
+  
+	<div class="menu">
+    
+		<div class="ui dropdown item">
 		  Systems <i class="dropdown icon"></i>
 		  <div class="menu">
 		    
-		        <a href="/l-over-d//pages/instrument/systems/insturments" class="item">Flight Insturments</a>
+		        <a href="/l-over-d//pages/instrument/systems/instruments" class="item">Flight Insturments</a>
+		    
+		        <a href="/l-over-d//pages/instrument/systems/gps" class="item">GPS</a>
 		    
 		        <a href="/l-over-d//pages/instrument/systems/efbs" class="item">EFBs</a>
 		    
@@ -87,32 +110,6 @@
 		  <div class="menu">
 		    
 		        <a href="/l-over-d//pages/instrument/weather/service" class="item">Weather Service</a>
-		    
-		  </div>
-		</div>
-    
-	</div>
-  
-	<div class="menu">
-    
-		<div class="ui dropdown item">
-		  Enroute <i class="dropdown icon"></i>
-		  <div class="menu">
-		    
-		        <a href="/l-over-d//pages/instrument/enroute/airways" class="item">Airways</a>
-		    
-		  </div>
-		</div>
-    
-	</div>
-  
-	<div class="menu">
-    
-		<div class="ui dropdown item">
-		  Approaches <i class="dropdown icon"></i>
-		  <div class="menu">
-		    
-		        <a href="/l-over-d//pages/instrument/approaches/" class="item">Maneuvers</a>
 		    
 		  </div>
 		</div>
@@ -179,6 +176,41 @@
   <li>On <em>northerly</em> headings, the compass will <strong>lag</strong> behind the actual heading</li>
   <li>On <em>southernly</em> headings, the compass will <strong>lead</strong> the actual heading</li>
   <li>On any heading other than north or south, <em>acceleration</em> will show a header <strong>north</strong> of the real heading, and a <em>deceleration</em> will shown a heading <strong>south</strong> of the real heading</li>
+</ul>
+
+<h2 id="transponders">Transponders</h2>
+
+<ul>
+  <li>Primary radar simply shows airborne objects (which could be a flock of birds)</li>
+  <li>Traditional transponders broadcast on 1090 MHz, and respond to interrogation from a <em>secondary</em> radar station or another aircraft’s TCAS system
+    <ul>
+      <li>Mode C adds altitude reporting, so your aircraft altitude is send back with your response</li>
+    </ul>
+  </li>
+  <li>ADBS-B is part of the NextGen ATC system
+    <ul>
+      <li>ADS-B Out: Transmits your GPS positions, altitude, and ground speed to one of over 700 ground stations
+        <ul>
+          <li>This is done either with either a new protocol on top of 1090 MHz, or using a new technology called UAT that uses 978 MHz</li>
+        </ul>
+      </li>
+      <li>ADS-B In: An optional data link that allows your aircraft to receive ADBS-B out data from other aircraft, and receive FIS-B weather data from ground stations:
+        <ul>
+          <li>Allows aircraft to receive traffic information (TIS-B)</li>
+          <li>Allows aircraft to receive weather information (FIS-B)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="adbs-b-2020-mandate">ADBS-B 2020 Mandate</h3>
+
+<ul>
+  <li>Required in Class A airspace</li>
+  <li>Within 30nm of a Class B airport</li>
+  <li>Within and above Class C airspace</li>
+  <li>Above 10,000 MSL but not below 2,500 AGL in Class E airspace</li>
 </ul>
 
 </div>

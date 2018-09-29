@@ -1,16 +1,31 @@
 toc:
   - title: Home
     url: pages/instrument
-  - title: Instrument Flying
+  - title: Flying
     url: pages/instrument/flying/
     subfolderitems: 
       - title: Attitude Flying
         url: pages/instrument/flying/attitude_flying
+  - title: Regulations
+    url: pages/instrument/regulations/
+    subfolderitems: 
+      - title: ATC Services
+        url: pages/instrument/regulations/atc-services
+      - title: Departures
+        url: pages/instrument/regulations/departures
+      - title: Enroute
+        url: pages/instrument/regulations/enroute
+      - title: Arrivals
+        url: pages/instrument/regulations/arrivals
+      - title: Approaches
+        url: pages/instrument/regulations/approaches
   - title: Systems
     url: pages/instrument/systems/
     subfolderitems: 
       - title: Flight Insturments
-        url: pages/instrument/systems/insturments
+        url: pages/instrument/systems/instruments
+      - title: GPS
+        url: pages/instrument/systems/gps
       - title: EFBs
         url: pages/instrument/systems/efbs
   - title: Weather
@@ -18,13 +33,3 @@ toc:
     subfolderitems: 
       - title: Weather Service
         url: pages/instrument/weather/service
-  - title: Enroute
-    url: pages/instrument/enroute/
-    subfolderitems: 
-      - title: Airways
-        url: pages/instrument/enroute/airways
-  - title: Approaches
-    url: pages/instrument/approaches/
-    subfolderitems: 
-      - title: Maneuvers
-        url: pages/instrument/approaches/

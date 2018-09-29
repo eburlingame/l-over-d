@@ -11,7 +11,7 @@
 
   <title>
     
-      EFBs &middot; L/D
+      GPS &middot; L/D
     
   </title>
 
@@ -124,19 +124,52 @@
 </script>
 
 <div class="page">
-  <h1 class="page-title">EFBs</h1>
-  <h2 id="electronic-efbs">Electronic EFBs</h2>
-
-<p>The FAA has established FARs that govern the use of Electronic Flight Bags (EFBs) in the cockpit.</p>
+  <h1 class="page-title">GPS</h1>
+  <h2 id="gps-and-waas">GPS and WAAS</h2>
 
 <ul>
-  <li>FAR 91.21 states that you must ensure that the EFB will not interfere with the navigation/communication systems installed on the aircraft</li>
-  <li>AC91-78 give guidance on replacing paper charts:
+  <li>GPS = Global Positioning System</li>
+  <li>WAAS = Wide Area Augmentation System</li>
+  <li>
+    <p>GNSS = Global Navigation Satellite System</p>
+  </li>
+  <li>Non-WAAS GPSes can provide IFR guidance, but require an alternate formate of navigation installed, like a VOR receiver</li>
+  <li>WAAS-Navigators may be the <em>only</em> IFR navigation source</li>
+  <li>RNAV = Random Area Navigation</li>
+  <li>WAAS uses two additional satellite to improve the GPS accuracy
     <ul>
-      <li>Need an application that will display paper charts</li>
-      <li><strong>The charts and data must be kept current</strong></li>
-      <li>Recommends bringing a backup paper or second EFB, but this is not a requirement</li>
-      <li>Also recommends a trial period where you use both paper and electronic</li>
+      <li>These transmit a correction signal that is uploaded from two ground stations that are connected to a network of monitoring stations throughout the US</li>
+      <li>Usually you can get 2-3 meter accuracy</li>
+    </ul>
+  </li>
+  <li>When not flying on airways, no <em>minimum altitude</em> is published
+    <ul>
+      <li>Instead, use the Off-Route Obstruction Clearance Altitude (OROCA), found on IFR Enroute chart</li>
+      <li>These routes provide clearance of:
+        <ul>
+          <li>1,000 feet in non-mountainous areas</li>
+          <li>2,000 feet in mountainous areas</li>
+        </ul>
+      </li>
+      <li>However, it does not guarantee radio or radar coverage</li>
+    </ul>
+  </li>
+  <li>You do <em>not</em> need a current database in the navigator for use in the enroute and terminal environments
+    <ul>
+      <li>However, you need to determine the waypoints used have not been changed within the databases</li>
+      <li>To fly IFR approaches:
+        <ul>
+          <li>You <em>need</em> up-to-date databases</li>
+          <li>Your GPS must also have a functioning RAIM feature (Random Autonomous Integrity Monitoring)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>RAIM requires:
+    <ul>
+      <li>A minimum of 5 GPS satellites in view</li>
+      <li>4 GPS satellites in view with a barometric altitude input</li>
+      <li>4 GPS satellites in view plus one WAAS GPS</li>
     </ul>
   </li>
 </ul>
