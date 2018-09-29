@@ -19,7 +19,7 @@ title: Home
   </div>
   <div class='row'>
     <div class="eight wide column">
-      <a class='ui button' style="width: 100%" href="{{ site.baseurl }}/pages/instrument">      <img src="public/img/airplane.svg" style="width: 100%" />
+      <a class='ui button' style="width: 100%" href="{{ site.baseurl }}/pages/instrument">      <img src="public/img/panel.svg" style="width: 100%" />
         Instrument
       </a>
     </div>
