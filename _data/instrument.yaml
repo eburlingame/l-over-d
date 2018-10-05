@@ -17,6 +17,8 @@ toc:
         url: pages/instrument/regulations/enroute
       - title: Arrivals
         url: pages/instrument/regulations/arrivals
+      - title: Holds
+        url: pages/instrument/regulations/holds
       - title: Approaches
         url: pages/instrument/regulations/approaches
   - title: Systems

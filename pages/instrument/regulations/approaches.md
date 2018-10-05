@@ -5,27 +5,6 @@ title: Approaches
 
 ## Types of Approaches
 
-### Visual Approaches
-
-You must have visual contact with the airport, or visual contract with an aircraft you are following. 
-
-Note this is not a procedure, so there is *no* missed approach procedure. 
-
-### Contact Approaches
-
-- A contact approach must be requested by the pilot
-- Must be
-	- Clear of clouds
-	- 1 sm flight visibility 
-	- At least 1 sm visibility reported at the field
-- The airport must have an instrument approach procedure
-- The pilot is responsible for obstruction clearance
-- These approach are useful
-	- If you are familiar with the area and don't wish to fly the entire approach
-	- Weather is blocking the path of an instrument approach, but there is a clear path from another direction
-
-Note, like a visual, this is not a procedure, so there is *no* missed approach procedure. 
-
 ### Non-Precision Approaches
 
 > A *non-precision approach* is a clearance to fly to a fix, and descend to an MSL altitude (the minimum descent altitude, MDA) until you see the airport, or you reach the missed approach point (MAP). 
@@ -55,6 +34,14 @@ Note, like a visual, this is not a procedure, so there is *no* missed approach p
 - Most have a beacon on the airport, and some will have a beacon somewhere off the airport
 - Most do not have a step-down fix, so descend to the MDA after the PT
 - With no other NAVAIDs, you'll have to fly over the NDB, then tack outbound on the course, fly the PT, then fly the approach inbound
+
+#### Visual Descent Points
+
+> A VDP is a defined point on the final approach course, from which, a normal descent from the MDA to the touch down point would be obstruction free. 
+
+- Usually a GPS or NDB fix
+- Should be aligned with the VASI or PAPI when you're at the MDA and the VDP
+- Not a mandatory part of the procedure
 
 ### Precision Approaches
 
@@ -315,7 +302,83 @@ ILS approaches are broken up into different categories:
 	</tr>
 </table>
 
-## Unusual Approaches
+### Other Approaches
+
+#### Visual Approaches
+
+You must have visual contact with the airport, or visual contract with an aircraft you are following. 
+
+Note this is not a procedure, so there is *no* missed approach procedure. 
+
+#### Contact Approaches
+
+- A contact approach must be requested by the pilot
+- Must be
+	- Clear of clouds
+	- 1 sm flight visibility 
+	- At least 1 sm visibility reported at the field
+- The airport must have an instrument approach procedure
+- The pilot is responsible for obstruction clearance
+- These approach are useful
+	- If you are familiar with the area and don't wish to fly the entire approach
+	- Weather is blocking the path of an instrument approach, but there is a clear path from another direction
+
+Note, like a visual, this is not a procedure, so there is *no* missed approach procedure. 
+
+#### Circling Approaches
+
+- A circling approach can be established when the *extended centerline* provided by the approach and the actual runway heading differ by more than 30 degrees (or 15 degrees for GPS approaches)
+- You can use circling approaches if
+	- The straight-in runway isn't usable for wind, or other reasons
+	- Or if the straight-in option requires a high descent rate
+- Approaches that *do not* have straight-in minimums are denoted by a letter (E.g. VOR-A)
+- Circling maneuver
+	- You must maintain **visual contact with the airport** during the circling maneuver
+	- You must make a missed approach if you cannot see the airport while circle at the MDA
+		- The one exception is if the bank causes you to be unable to see the airport
+	- Make the shortest path to the base or downwind leg for a normal landing while circling
+- If you have to go missed while circling, make a climbing turn to the landing runway, then continue onto the missed approach
+- You can land straight in on an approach that only has circling minimums, if the weather is good enough
+- Circling minimums are defined per category
+	- If you plan to circle at a speed higher than that of your category, you must use the minimums for the hight category: 
+
+<table class='ui celled table'>
+	<thead>
+		<tr>
+			<th>Category</th>
+			<th>Vref (or 1.3 * Vso)</th>
+			<th>Arc Radius</th>
+		</tr>
+	</thead>
+	<tr>
+		<td>A</td>
+		<td>0-90 knots</td>
+		<td>1.3 mi</td>
+	</tr>
+	<tr>
+		<td>B</td>
+		<td>91-120 knots</td>
+		<td>1.5 mi</td>
+	</tr>
+	<tr>
+		<td>C</td>
+		<td>121-140 knots</td>
+		<td>1.7 mi</td>
+	</tr>
+	<tr>
+		<td>D</td>
+		<td>141-165 knots</td>
+		<td>2.6 mi</td>
+	</tr>
+	<tr>
+		<td>E</td>
+		<td>> 165 knots</td>
+		<td>4.5 mi</td>
+	</tr>
+</table>
+
+
+#### Unusual Approaches
 
 - A *side step* maneuver is used when an approach for another runway is used
 	- The runways must be no more than 1200 feet apart

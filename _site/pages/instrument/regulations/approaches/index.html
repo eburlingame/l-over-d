@@ -110,6 +110,8 @@
 			
 		    		<a href="/l-over-d//pages/instrument/regulations/arrivals" class="item">Arrivals</a>
 			
+		    		<a href="/l-over-d//pages/instrument/regulations/holds" class="item">Holds</a>
+			
 		    		<a href="/l-over-d//pages/instrument/regulations/approaches" class="item">Approaches</a>
 			
 			</div>
@@ -162,35 +164,6 @@
   <h1 class="page-title">Approaches</h1>
   <h2 id="types-of-approaches">Types of Approaches</h2>
 
-<h3 id="visual-approaches">Visual Approaches</h3>
-
-<p>You must have visual contact with the airport, or visual contract with an aircraft you are following.</p>
-
-<p>Note this is not a procedure, so there is <em>no</em> missed approach procedure.</p>
-
-<h3 id="contact-approaches">Contact Approaches</h3>
-
-<ul>
-  <li>A contact approach must be requested by the pilot</li>
-  <li>Must be
-    <ul>
-      <li>Clear of clouds</li>
-      <li>1 sm flight visibility</li>
-      <li>At least 1 sm visibility reported at the field</li>
-    </ul>
-  </li>
-  <li>The airport must have an instrument approach procedure</li>
-  <li>The pilot is responsible for obstruction clearance</li>
-  <li>These approach are useful
-    <ul>
-      <li>If you are familiar with the area and don’t wish to fly the entire approach</li>
-      <li>Weather is blocking the path of an instrument approach, but there is a clear path from another direction</li>
-    </ul>
-  </li>
-</ul>
-
-<p>Note, like a visual, this is not a procedure, so there is <em>no</em> missed approach procedure.</p>
-
 <h3 id="non-precision-approaches">Non-Precision Approaches</h3>
 
 <blockquote>
@@ -233,6 +206,18 @@
   <li>Most have a beacon on the airport, and some will have a beacon somewhere off the airport</li>
   <li>Most do not have a step-down fix, so descend to the MDA after the PT</li>
   <li>With no other NAVAIDs, you’ll have to fly over the NDB, then tack outbound on the course, fly the PT, then fly the approach inbound</li>
+</ul>
+
+<h4 id="visual-descent-points">Visual Descent Points</h4>
+
+<blockquote>
+  <p>A VDP is a defined point on the final approach course, from which, a normal descent from the MDA to the touch down point would be obstruction free.</p>
+</blockquote>
+
+<ul>
+  <li>Usually a GPS or NDB fix</li>
+  <li>Should be aligned with the VASI or PAPI when you’re at the MDA and the VDP</li>
+  <li>Not a mandatory part of the procedure</li>
 </ul>
 
 <h3 id="precision-approaches">Precision Approaches</h3>
@@ -629,7 +614,104 @@
 	</tr>
 </table>
 
-<h2 id="unusual-approaches">Unusual Approaches</h2>
+<h3 id="other-approaches">Other Approaches</h3>
+
+<h4 id="visual-approaches">Visual Approaches</h4>
+
+<p>You must have visual contact with the airport, or visual contract with an aircraft you are following.</p>
+
+<p>Note this is not a procedure, so there is <em>no</em> missed approach procedure.</p>
+
+<h4 id="contact-approaches">Contact Approaches</h4>
+
+<ul>
+  <li>A contact approach must be requested by the pilot</li>
+  <li>Must be
+    <ul>
+      <li>Clear of clouds</li>
+      <li>1 sm flight visibility</li>
+      <li>At least 1 sm visibility reported at the field</li>
+    </ul>
+  </li>
+  <li>The airport must have an instrument approach procedure</li>
+  <li>The pilot is responsible for obstruction clearance</li>
+  <li>These approach are useful
+    <ul>
+      <li>If you are familiar with the area and don’t wish to fly the entire approach</li>
+      <li>Weather is blocking the path of an instrument approach, but there is a clear path from another direction</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Note, like a visual, this is not a procedure, so there is <em>no</em> missed approach procedure.</p>
+
+<h4 id="circling-approaches">Circling Approaches</h4>
+
+<ul>
+  <li>A circling approach can be established when the <em>extended centerline</em> provided by the approach and the actual runway heading differ by more than 30 degrees (or 15 degrees for GPS approaches)</li>
+  <li>You can use circling approaches if
+    <ul>
+      <li>The straight-in runway isn’t usable for wind, or other reasons</li>
+      <li>Or if the straight-in option requires a high descent rate</li>
+    </ul>
+  </li>
+  <li>Approaches that <em>do not</em> have straight-in minimums are denoted by a letter (E.g. VOR-A)</li>
+  <li>Circling maneuver
+    <ul>
+      <li>You must maintain <strong>visual contact with the airport</strong> during the circling maneuver</li>
+      <li>You must make a missed approach if you cannot see the airport while circle at the MDA
+        <ul>
+          <li>The one exception is if the bank causes you to be unable to see the airport</li>
+        </ul>
+      </li>
+      <li>Make the shortest path to the base or downwind leg for a normal landing while circling</li>
+    </ul>
+  </li>
+  <li>If you have to go missed while circling, make a climbing turn to the landing runway, then continue onto the missed approach</li>
+  <li>You can land straight in on an approach that only has circling minimums, if the weather is good enough</li>
+  <li>Circling minimums are defined per category
+    <ul>
+      <li>If you plan to circle at a speed higher than that of your category, you must use the minimums for the hight category:</li>
+    </ul>
+  </li>
+</ul>
+
+<table class="ui celled table">
+	<thead>
+		<tr>
+			<th>Category</th>
+			<th>Vref (or 1.3 * Vso)</th>
+			<th>Arc Radius</th>
+		</tr>
+	</thead>
+	<tr>
+		<td>A</td>
+		<td>0-90 knots</td>
+		<td>1.3 mi</td>
+	</tr>
+	<tr>
+		<td>B</td>
+		<td>91-120 knots</td>
+		<td>1.5 mi</td>
+	</tr>
+	<tr>
+		<td>C</td>
+		<td>121-140 knots</td>
+		<td>1.7 mi</td>
+	</tr>
+	<tr>
+		<td>D</td>
+		<td>141-165 knots</td>
+		<td>2.6 mi</td>
+	</tr>
+	<tr>
+		<td>E</td>
+		<td>&gt; 165 knots</td>
+		<td>4.5 mi</td>
+	</tr>
+</table>
+
+<h4 id="unusual-approaches">Unusual Approaches</h4>
 
 <ul>
   <li>A <em>side step</em> maneuver is used when an approach for another runway is used
