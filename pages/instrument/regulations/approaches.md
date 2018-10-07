@@ -49,6 +49,60 @@ title: Approaches
 
 Note: The decision *height* (DH) is the height above the runway threshold, whereas the decision altitude (DA) which is an MSL altitude. 
 
+#### GPS Approaches
+
+> GPS approaches are labeled as *RNAV (GPS) Y RWL 34*, and require an IFR-approved GPS receiver. 
+
+- Most GPS approaches are designed to be flown straight-in
+- Usually include several IAFs
+- Usually include a holding pattern for traffic flow or course reversal
+- Your GPS database *must be current*
+	- The approach also has to be loaded from its database
+- There are different options when it comes to GPS approach minimums: 
+	- **LPV** (Localizer Performance with Vertical Guidance):
+		- Most precise, similar to ILS
+		- Both lateral and vertical guidance (akin to an **ILS**)
+		- Needs a *WAAS*-GPS
+		- The lateral course width narrows as you approach the runway (as it would when using a localizer)
+		- Dumps into a DA, like a precision approach
+	- **LP** (Localizer Performance):
+		- Provides lateral guidance (akin to a **localizer** approach)
+		- Uses step down fixes
+		- Dumps into an MDA, like a non-precision approach
+		- A WAAS GPS can provide *advisory* vertical guidance on the approach
+			- This is meant as an aid, and you cannot go below the MDA
+	- **LNAV/VNAV** (Lateral + Vertical Navigation:
+		- Designed for jet aircraft using barometric inputs
+	- **LNAV** (Lateral navigation): 
+		- Provides L/R course guidance
+		- Uses step-down fixes, more like a non-precision approach
+		- Uses an MDA
+		- The lateral course width remains constant as you approach the runway
+		- MAP is marked by a GPS fix
+		- A WAAS GPS can provide *advisory* vertical guidance on the approach
+
+
+- GPS Annunciations:
+	- LNAV + V: LNAV approach with *advisory* vertical guidance
+	- LP + V: LP approach with *advisory* vertical guidance
+	- L/VNAV: LNAV/VNAV approach with approved vertical guidance
+	- LPV: LPV approach with approved vertical guidance
+- GPS fixes
+	- Fly-over waypoints: You must pass over the waypoint, then turn
+	- Fly-by waypoints: You can turn just before the fix 
+- GPS Modes
+	- Terminal Mode:
+		- Set if we are within 30nm of our destination
+		- CDI scale set to 1nm full needle deflection
+		- 2nm prior to the FAF will start reducing the CDI scale to 0.3nm full-scale deflection
+	- Enroute Mode: 
+		- CDI scale set to 2nm full needle deflection
+- TAA (Terminal Arrival Area)
+	- List Minimum Safe Altitudes for quadrants of the approach
+	- When cleared for an approach, you may descend to these MSAs at your discretion
+
+![Fly Over/Flyby Waypoints](https://slideplayer.com/slide/3071315/11/images/14/Fly-By+and+Fly-Over+Waypoints.jpg)
+
 ### Approaches with Vertical Guidance
 
 > A *approach with vertical guidance* provides both vertical and lateral guidance, but is less accurate than a precision approach. 
@@ -405,3 +459,19 @@ Note, like a visual, this is not a procedure, so there is *no* missed approach p
 	- Add a wind correction angle (for instance 10 degrees) and turn 30 degrees left 
 	- Recapture the ADF when the needle is is *20* degrees off the to the right (30 degree turn - 10 degree wind correction)
 	- Turn 20 degrees to the right and observe the needle is 10 degrees to the right (the wind correction angle), and you should maintain the track
+
+## DME Arcs
+
+> DME arcs used to position airplanes on an approach course, or (rarely) are the final approach course. 
+
+- The course radius maybe be as little as 7 and as large as 30 miles
+- Obstacle clearance
+	- 1000 feet above the highest obstacle
+	- Within 4nm on either side of the arc
+- Flying an arc
+	- Use a series of short courses
+	- Advance the VOR OBS by 10 degrees each time, turning right 10 degrees each time
+	- Check the DME distance and adjust in or out as needed to maintain the distance shown on the chart
+	- As a rule of thumb: 
+		- Inside the arch and 1/2 mile off course: Don't turn (you'll fly back out)
+		- Outside the arch and 1/2 mile off course: Use a 20 degree turn into the arc
