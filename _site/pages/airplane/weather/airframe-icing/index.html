@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Airframe Icing &middot; L/D
+    
+  </title>
+
+  <!-- CSS -->  
+  <link rel="stylesheet" href="/l-over-d//public/css/style.css">
+  <link rel="stylesheet" href="/l-over-d//public/css/semantic.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/l-over-d//public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/l-over-d//public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <!-- Semantic JS -->
+  <script type="text/javascript" src="/l-over-d//public/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/l-over-d//public/js/semantic.js"></script>
+
+</head>
+
+
+  <body>
+    <div class="pusher">
+      <div class="ui container">
+        <a href="/l-over-d/" class='headerImg'>
+	<img src="/l-over-d/public/img/airplane.svg" />
+</a>
+
+
+<div class="ui vertical inverted sidebar menu">
+	
+		<a href="/l-over-d//pages/airplane" class="item">
+			Home
+		</a>
+	
+		<a href="/l-over-d//pages/airplane/aircraft/" class="item">
+			Aircraft
+		</a>
+	
+		<a href="/l-over-d//pages/airplane/regulations/" class="item">
+			Regulations
+		</a>
+	
+		<a href="/l-over-d//pages/airplane/weather/" class="item">
+			Weather
+		</a>
+	
+		<a href="/l-over-d//pages/airplane/procedures/" class="item">
+			Procedures
+		</a>
+	
+</div>
+
+<div class="ui small menu">
+	<a class="toc item">
+	  <i class="sidebar icon"></i>
+	</a>
+
+	<a class='menuImage' href="/l-over-d/">
+		<img src="/l-over-d/public/img/airplane.svg" />
+	</a>
+
+	
+
+		
+			<div class="menu">
+				<a href="/l-over-d//pages/airplane" class="item">Home</a>
+			</div>
+		
+
+	
+
+		
+			<div class="ui dropdown item">
+				Aircraft <i class="dropdown icon"></i>
+			<div class="menu">
+				
+		    		<a href="/l-over-d//pages/airplane/aircraft/aerodynamics" class="item">Aerodynamics</a>
+			
+		    		<a href="/l-over-d//pages/airplane/aircraft/flight-instruments" class="item">Flight Instruments</a>
+			
+		    		<a href="/l-over-d//pages/airplane/aircraft/airplane-systems" class="item">Airplane Systems</a>
+			
+		    		<a href="/l-over-d//pages/airplane/aircraft/performance" class="item">Aircraft Performance</a>
+			
+			</div>
+			</div>
+		
+
+	
+
+		
+			<div class="ui dropdown item">
+				Regulations <i class="dropdown icon"></i>
+			<div class="menu">
+				
+		    		<a href="/l-over-d//pages/airplane/regulations/airspace" class="item">Airspace</a>
+			
+		    		<a href="/l-over-d//pages/airplane/regulations/airworthiness" class="item">Airworthiness</a>
+			
+		    		<a href="/l-over-d//pages/airplane/regulations/currency" class="item">Currency</a>
+			
+		    		<a href="/l-over-d//pages/airplane/regulations/flight-operations" class="item">Flight Operations</a>
+			
+		    		<a href="/l-over-d//pages/airplane/regulations/medical-factors" class="item">Medical Factors</a>
+			
+			</div>
+			</div>
+		
+
+	
+
+		
+			<div class="ui dropdown item">
+				Weather <i class="dropdown icon"></i>
+			<div class="menu">
+				
+		    		<a href="/l-over-d//pages/airplane/weather/weather-theory" class="item">Weather Theory</a>
+			
+		    		<a href="/l-over-d//pages/airplane/weather/weather-services" class="item">Weather Services</a>
+			
+			</div>
+			</div>
+		
+
+	
+
+		
+			<div class="ui dropdown item">
+				Procedures <i class="dropdown icon"></i>
+			<div class="menu">
+				
+		    		<a href="/l-over-d//pages/airplane/procedures/maneuvers" class="item">Maneuvers</a>
+			
+		    		<a href="/l-over-d//pages/airplane/procedures/traffic-patterns" class="item">Traffic Patterns</a>
+			
+		    		<a href="/l-over-d//pages/airplane/procedures/navigation" class="item">Navigation</a>
+			
+		    		<a href="/l-over-d//pages/airplane/procedures/emergencies" class="item">Emergencies</a>
+			
+			</div>
+			</div>
+		
+
+	
+
+</div>
+
+<script type="text/javascript">
+	$(document).ready(() => {
+		$('.ui.dropdown').dropdown();
+		$('.ui.sidebar')
+			.sidebar('attach events', '.toc.item');
+	});
+</script>
+
+<div class="page">
+  <h1 class="page-title">Airframe Icing</h1>
+  <ul>
+  <li>Ice buildup on an aircraft can alter the shape of its airfoil
+    <ul>
+      <li>Decreases the angle of attack at which the aircraft will stall</li>
+      <li>Can also increase drag by 100% or more</li>
+    </ul>
+  </li>
+  <li></li>
+</ul>
+
+<blockquote>
+  <p>Airframe icing forms when super-cooled water droplets strike the aircraft. This water has been lifted from a warmer area into a colder one.</p>
+</blockquote>
+
+<ul>
+  <li>Thus, the most likely scenario to encounter icing is where there is <em>moisture</em> and <em>lifting action</em>
+    <ul>
+      <li>This often occurs around a low pressure system
+        <ul>
+          <li>Air flows clockwise and up <em>into</em> the low</li>
+        </ul>
+      </li>
+      <li>Orographic lift can also cause icing (E.g. air being forced upward over a ridge)
+        <ul>
+          <li>This effect can be much stronger than that of a low pressure system</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>If the air is turbulent and you encounter ice, it will likely be severe.</p>
+</blockquote>
+
+<ul>
+  <li>In cumulus clouds:
+    <ul>
+      <li>Expect more rapid accumulation</li>
+      <li>You can sometimes go around them</li>
+    </ul>
+  </li>
+  <li>In stratus clouds:
+    <ul>
+      <li>More gradual accumulation</li>
+      <li>Cover a much wider area</li>
+      <li>An altitude change may help</li>
+      <li>Ice will generally not form if the temperature is below -15 degrees C</li>
+    </ul>
+  </li>
+  <li>Expect icing:
+    <ul>
+      <li>In rain or visible moisture (like cloud droplets)</li>
+      <li>The temperature is within 2 degrees C and -10 degrees C</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="ice-types">Ice Types</h3>
+
+<p><img src="https://www.aviationweather.ws/page093-1.jpg" alt="Types of Ice" /></p>
+
+<h4 id="clear-ice">Clear Ice</h4>
+
+<ul>
+  <li>Glossy and transparent</li>
+  <li>Forms most often with:
+    <ul>
+      <li>Temperatures close to the freezing point with large amounts of water</li>
+      <li>High aircraft speed</li>
+      <li>Large water droplets</li>
+    </ul>
+  </li>
+  <li>Typically found in:
+    <ul>
+      <li>Supercooled water in cumulus clouds</li>
+      <li>Very unstable air</li>
+      <li>Strong mechanical lifting over mountains</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="rime-ice">Rime Ice</h4>
+
+<ul>
+  <li>Forms most often with:
+    <ul>
+      <li>Low temperatures</li>
+      <li>Low aircraft speeds</li>
+      <li>Less liquid water</li>
+    </ul>
+  </li>
+  <li>Typically found in:
+    <ul>
+      <li>Small supercooled droplets in stratus clouds</li>
+      <li>Stable air</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="mixed-ice">Mixed Ice</h4>
+
+<ul>
+  <li>Ice that is a combination of both rime and clear ice</li>
+</ul>
+
+<h4 id="light-rime-ice">Light Rime Ice</h4>
+
+<ul>
+  <li>Accumulates slowly in Stratus clouds 5-10 degrees below freezing</li>
+</ul>
+
+<h4 id="freezing-rain">Freezing Rain</h4>
+
+<blockquote>
+  <p>Don’t fly in freezing rain.</p>
+</blockquote>
+
+<ul>
+  <li>Rain that falls from warm air above into colder air below, causing it to freeze</li>
+  <li>Ofter you should attempt to climb up into the warmer air if freezing rain is encountered</li>
+  <li>The <em>lower</em> you fly the <em>worse</em> the ice will become</li>
+  <li>Usually occurs north of a warm front
+    <ul>
+      <li>Fly back over the warm front for relief</li>
+      <li>However, be weary of embedded thunderstorms along the cold front</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="encountering-ice">Encountering Ice</h3>
+
+<ul>
+  <li>Disable the autopilot (which can mask performance changes in the airplane)</li>
+  <li>Roll upset may occur when ice causes a stall at the tip of the wing, causes an aileron self-deflection
+    <ul>
+      <li>In this case, level the wings, increase airspeeds, and extend flaps one notch</li>
+      <li>Set appropriate power</li>
+      <li>Don’t retract the flaps
+        <ul>
+          <li>This will <em>increase</em> the angle of attack</li>
+        </ul>
+      </li>
+      <li>Turn on ice protection, if installed</li>
+    </ul>
+  </li>
+  <li>A tailplane stall is a stall due to ice of the horizontal stabilizer
+    <ul>
+      <li>Symptoms
+        <ul>
+          <li>Elevator pulsing</li>
+          <li>Nose-down trim change</li>
+          <li>Abnormal pitch anomalies</li>
+          <li>Reduction/Loss of elevator effectiveness</li>
+          <li>Sudden change in elevator force</li>
+          <li>Sudden commanded nose-down pitch movement</li>
+        </ul>
+      </li>
+      <li>Remedy
+        <ul>
+          <li>Retract flaps to the previous setting</li>
+          <li>Increase airspeed</li>
+          <li>Apply sufficient power</li>
+          <li>Make nose-down pitch changes slowly</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>If you have ice on the airplane:
+    <ul>
+      <li>Make your approach at a higher-than-normal speed</li>
+      <li>Don’t use flaps!</li>
+      <li>Use an ILS if you can</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="pireps-for-icing">PIREPS for Icing</h3>
+
+<ul>
+  <li>Be weary of PIREPS from much high performance aircraft
+    <ul>
+      <li>Faster aircraft have a much warmer skin due to the friction of the passing air</li>
+    </ul>
+  </li>
+  <li>Also be sure to look at the time of the report</li>
+  <li>Ice Intensity:
+    <ul>
+      <li>Trace icing
+        <ul>
+          <li>Ice is just barely perceptible</li>
+          <li>Accumulation is slightly faster than the sublimation</li>
+          <li>Anti-ice is not used unless encountered for more than 1 hour</li>
+        </ul>
+      </li>
+      <li>Light icing
+        <ul>
+          <li>Hazardous if flown in form more than an hour</li>
+          <li>Calls for the use of anti-ice equipment, but does not pose a hazard when its used</li>
+        </ul>
+      </li>
+      <li>Moderate icing
+        <ul>
+          <li>Potentially hazardous if anti-ice is not used immediately</li>
+          <li>Diversion may be necessary</li>
+        </ul>
+      </li>
+      <li>Severe Icing:
+        <ul>
+          <li>Exceeds the capability of approved anti-ice equipment</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="deicing-systems">Deicing Systems</h3>
+
+<ul>
+  <li>Boots
+    <ul>
+      <li>Push pressurized air into inflatable boots on the leading edge</li>
+    </ul>
+  </li>
+  <li>Weeping wing
+    <ul>
+      <li>Pours leading edge (anti-ice and deice)</li>
+    </ul>
+  </li>
+  <li>Heated wing
+    <ul>
+      <li>Uses bleed air from jet engines</li>
+    </ul>
+  </li>
+  <li>Propeller
+    <ul>
+      <li>Heated element (deice)</li>
+      <li>Fluid discharger (anti-ice)</li>
+    </ul>
+  </li>
+  <li>Windshields
+    <ul>
+      <li>Anti-ice fluid nozzles</li>
+      <li>Electrically heated windshield plate</li>
+    </ul>
+  </li>
+  <li>FIKI Certification
+    <ul>
+      <li>Must be functional and unmodified</li>
+    </ul>
+  </li>
+  <li>Partial ice protection systems
+    <ul>
+      <li>Used for <em>emergency use only</em></li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+
+
+      </div>
+    </div>
+
+	<script type="text/javascript">
+		$(document).ready(() => {
+			$("blockquote").addClass("ui segment");
+		});
+	</script>
+  </body>
+</html>
