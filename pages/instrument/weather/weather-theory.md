@@ -102,3 +102,68 @@ title: Weather Theory
 > Usually the best course of action is to get on the ground if the weather is bad at night. 
 
 - Bad conditions usually tend to get worse as the night goes on
+
+## Wind Shear
+
+> The first sign of a wind-shear encounter is a sudden change in indicated airspeed.
+
+> The changing of wind does not usually affect an aircraft in flight. However, it *will* affect the airplane if the wind changes faster than the airplane's mass can be accelerated. 
+
+### Wind Shear on Approach
+
+- If a *headwind* becomes a *tailwind*:
+	- The airspeed will fall, and the airplane will pitch downward
+	- This means you will need to add power to maintain your glideslope
+	- However, after it is stabilized, you must reduce power to a *lower* setting than before the shear
+- If a *tailwind* becomes a *headwind*:
+	- The airspeed will increase, and the pitch will increase
+	- You must reduce power
+	- However, after it is stabilized, you must add additional power than before the shear
+
+### Low-Level Windshear
+
+- Found in:
+	- Thunderstorms
+	- Fronts
+		- Cold front passage:
+			- Applicable up to 3 hours after the passage of a cold front, and up to 5000 feet
+		- Warm front passage:
+			- Usually a greater amount of shear, and lower to surface
+			- Applicable right after passage of the front and for up to 6 hours
+		- Be weary of:
+			- Frontal speeds of 30 knots or more
+			- Temperature difference of 5 degrees C on the surface on opposite sides of the front
+			- When the wind between 2000 and 4000 feet is >= 25 knots
+	- Low-level inversions
+	- Mountain wave
+
+### Microbursts
+
+> It's best to avoid microbursts.
+
+![Microbust](https://www.weather.gov/images/bmx/Daily/microbursts/microburst.jpg)
+
+- Microburst development
+	- Descends as a rain shaft, then intensified for the first 5 minutes after contacting the ground
+	- Surface winds can change as must as 100 knots on the ground
+	- The maximum shear intensity occurs 10 minutes after contacting the ground
+	- Horizontal outflow usually has a radius of 3 or so miles
+	- Formation of multiple or a line of microbursts is common
+	- Expect microbursts anywhere near convective activities
+- Likely in convective weather, with:
+	- Strong winds
+	- Heavy precipitation
+	- Virga
+	- Moderate or severe turbulence
+	- **15-30 degrees C** between the temperature and the dewpoint
+	- PIREP of IAS change of 15 or more knots
+- Compensatory measures 
+	- Many towers have LLWS alerting system
+	- Takeoff considerations:
+		- Use the longest suitable runway
+		- Use the maximum power available
+		- Consider a higher speed for takeoff
+	- Landing considerations:
+		- Stabilize an approach above 1000 feet AGL
+		- Avoid large power reductions
+		- Consider a higher approach speed

@@ -3,15 +3,57 @@ layout: instrument
 title: Instruments
 ---
 
+## Pitot-Static System
+
+> The pitot-static system will drive the altimeter, vertical speed indicator, and the airspeed indicator. 
+
+### Altimeter
+
+- The altimeter should be set to the local altimeter setting before each flights.
+	- If the airport elevation differs from the altimeter readout by more than **75 feet**, the instrument should be checked
+	- Be sure you know what your current elevation is
+- When the altimeter Kollsman setting is *lowered* the indicated altitude will be *lower*, and vis-versa
+	- 1" Hg is roughly 1000 feet
+	- Temperatures *higher* than standard will read an altitude *lower* than actual
+	- Temperatures *lower* than standard will read an altitude *higher* than actual
+	- "From high to low, look out below"
+
+### Issues
+
+#### Static Source Blockage
+
+- Altimeter: Show the altitude where the blockage occurred
+- VSI: Display 0
+- Airspeed: Will continue to function, however will be erroneous
+	- Lower altitude than the blockage: Show a **higher** than actual airspeed
+	- Higher altitude than the blockage: Shows a **lower** than actual airspeed
+- In this situation, use the *alternate static source*
+	- This is vented to the cabin
+	- Usually cause airspeed and altimeter to be higher than actual
+	- VSI will show a momentary climb
+
+#### Pitot Blockage
+
+- Indicated airspeed drops to zero
+- The airspeed indicator shall become a sort of altimeter
+	- Decrease as the aircraft is lowered
+	- Increase as the aircraft climbs
+
 ## Vacuum and Pressure Instruments
 
 - Attitude and heading indicators are the **vacuum instruments**
-	- Each contain a gyro, which is spun by a partial vauccm
+	- Each contain a gyro, which is spun by a partial vacuum
 	- Some attach a vacuum pump to create negative pressure (drawing air in to spin the gyro), while some force air in with a positive pressure pump
 	- For light aircraft, this is usually done using a vacuum system
 	- Most dry vacuum pumps have a lifetime between 500-1000 hours
 	- Dirty air filters can slow the spinning of the gyros
 	- Be sure to include the **suction gauge** as part of your instrument scan
+
+### Attitude Indicator
+
+- Acceleration errors
+	- Acceleration causes the AI to momentarily show a *climb*
+	- Deceleration causes the AI to momentarily show a *descent*
 
 ## Partial Panel Flight
 

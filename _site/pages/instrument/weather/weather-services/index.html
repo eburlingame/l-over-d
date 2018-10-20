@@ -104,6 +104,8 @@
 				Regulations <i class="dropdown icon"></i>
 			<div class="menu">
 				
+		    		<a href="/l-over-d//pages/instrument/regulations/equipment" class="item">Equipment</a>
+			
 		    		<a href="/l-over-d//pages/instrument/regulations/atc-services" class="item">ATC Services</a>
 			
 		    		<a href="/l-over-d//pages/instrument/regulations/departures" class="item">Departures</a>
@@ -174,8 +176,99 @@
   <h1 class="page-title">Weather Services</h1>
   <h3 id="convective-outlook">Convective Outlook</h3>
 
+<blockquote>
+  <p>The convective outlook is a national forecast for areas of general and severe thunderstorms.</p>
+</blockquote>
+
 <ul>
   <li>Thunderstorm forecast</li>
+  <li>8 day forecasts are available</li>
+  <li>Day 1 and 2 outlooks also give areas with a 10% or greater change of thunderstorm activity</li>
+  <li>Shading
+    <ul>
+      <li>Green: General</li>
+      <li>Yellow: Slight (meaning small number or low coverage of storms)</li>
+      <li>Red: Moderate/severe</li>
+      <li>Magenta: Highly severe</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="low-level-significant-weather-prognosis-chart">Low-Level Significant Weather Prognosis Chart</h3>
+
+<blockquote>
+  <p>Low-level prog charts predict weather from the surface to 25,000 feet.</p>
+</blockquote>
+
+<h3 id="high-level-significant-weather-prognosis-chart">High-Level Significant Weather Prognosis Chart</h3>
+
+<blockquote>
+  <p>High-level prog charts predict weather from the 25,000 feet to 63,000 feet.</p>
+</blockquote>
+
+<ul>
+  <li>The <em>height of the tropopause</em> is shown in 100’s of feet inside a rectangle</li>
+  <li>The chart shows bases and tops for major cloud cover
+    <ul>
+      <li>XXX means the base is below the bottom of the chart (25,000 feet)</li>
+    </ul>
+  </li>
+  <li>Hatching across the jet stream line means wind speed changes of more than 20 knots</li>
+  <li>Cumulonimbus coverage:
+    <ul>
+      <li>ISOL: &lt; 1/8</li>
+      <li>OCNL: 1/8 to 4/8</li>
+      <li>FRQ: 5/8 to 8/8</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="winds-aloft-forecast">Winds Aloft Forecast</h3>
+
+<p>The graphical winds aloft chart uses barbs and pennets to show wind speed:</p>
+<ul>
+  <li>Half barb: 5 knots</li>
+  <li>Full barb: 10 knots</li>
+  <li>Pennet: 50 knots</li>
+</ul>
+
+<p>The textual product encodes the direction, speed, and temperature aloft:</p>
+
+<ul>
+  <li>2518+06 = 250 degrees at 18 knots, temperature +6 degrees C</li>
+  <li>For wind speeds &gt; 50 knots:
+    <ul>
+      <li>50 is added to the wind direction (making it an impossible direction)</li>
+      <li>The 1 is left off of the wind speed</li>
+      <li>Thus, 731960 = 230 degrees at 119 knots, at -60 degrees C
+        <ul>
+          <li>73 - 50 = 23 =&gt; 230 degrees</li>
+          <li>19 + 100 = 119 knots</li>
+          <li>60 =&gt; -60 degrees C</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>For wind speeds &gt; 199 knots:
+    <ul>
+      <li>They will place 99 in the wind direction, and still add 50 to the direction
+        <ul>
+          <li>Thus, 779960 = 270 degrees at &gt;199 knots, and -60 degree C</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Winds that are “light and variable”
+    <ul>
+      <li>9900+09 = Light and variable, +9 degree C</li>
+    </ul>
+  </li>
+  <li>Note:
+    <ul>
+      <li>All <em>texual</em> reports (METARs, TAFS, FAs): Wind direction is in <strong>true</strong> degrees</li>
+      <li>All <em>radius recieved</em> wind reports (ATIS, ASOS, AWOS, Tower): Wind direction is in <strong>magnetic</strong> degrees</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="terminal-aerodrome-forecast-taf">Terminal Aerodrome Forecast (TAF)</h3>

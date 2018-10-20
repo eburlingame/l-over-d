@@ -104,6 +104,8 @@
 				Regulations <i class="dropdown icon"></i>
 			<div class="menu">
 				
+		    		<a href="/l-over-d//pages/instrument/regulations/equipment" class="item">Equipment</a>
+			
 		    		<a href="/l-over-d//pages/instrument/regulations/atc-services" class="item">ATC Services</a>
 			
 		    		<a href="/l-over-d//pages/instrument/regulations/departures" class="item">Departures</a>
@@ -172,17 +174,87 @@
 
 <div class="page">
   <h1 class="page-title">Instruments</h1>
-  <h2 id="vacuum-and-pressure-instruments">Vacuum and Pressure Instruments</h2>
+  <h2 id="pitot-static-system">Pitot-Static System</h2>
+
+<blockquote>
+  <p>The pitot-static system will drive the altimeter, vertical speed indicator, and the airspeed indicator.</p>
+</blockquote>
+
+<h3 id="altimeter">Altimeter</h3>
+
+<ul>
+  <li>The altimeter should be set to the local altimeter setting before each flights.
+    <ul>
+      <li>If the airport elevation differs from the altimeter readout by more than <strong>75 feet</strong>, the instrument should be checked</li>
+      <li>Be sure you know what your current elevation is</li>
+    </ul>
+  </li>
+  <li>When the altimeter Kollsman setting is <em>lowered</em> the indicated altitude will be <em>lower</em>, and vis-versa
+    <ul>
+      <li>1” Hg is roughly 1000 feet</li>
+      <li>Temperatures <em>higher</em> than standard will read an altitude <em>lower</em> than actual</li>
+      <li>Temperatures <em>lower</em> than standard will read an altitude <em>higher</em> than actual</li>
+      <li>“From high to low, look out below”</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="issues">Issues</h3>
+
+<h4 id="static-source-blockage">Static Source Blockage</h4>
+
+<ul>
+  <li>Altimeter: Show the altitude where the blockage occurred</li>
+  <li>VSI: Display 0</li>
+  <li>Airspeed: Will continue to function, however will be erroneous
+    <ul>
+      <li>Lower altitude than the blockage: Show a <strong>higher</strong> than actual airspeed</li>
+      <li>Higher altitude than the blockage: Shows a <strong>lower</strong> than actual airspeed</li>
+    </ul>
+  </li>
+  <li>In this situation, use the <em>alternate static source</em>
+    <ul>
+      <li>This is vented to the cabin</li>
+      <li>Usually cause airspeed and altimeter to be higher than actual</li>
+      <li>VSI will show a momentary climb</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="pitot-blockage">Pitot Blockage</h4>
+
+<ul>
+  <li>Indicated airspeed drops to zero</li>
+  <li>The airspeed indicator shall become a sort of altimeter
+    <ul>
+      <li>Decrease as the aircraft is lowered</li>
+      <li>Increase as the aircraft climbs</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="vacuum-and-pressure-instruments">Vacuum and Pressure Instruments</h2>
 
 <ul>
   <li>Attitude and heading indicators are the <strong>vacuum instruments</strong>
     <ul>
-      <li>Each contain a gyro, which is spun by a partial vauccm</li>
+      <li>Each contain a gyro, which is spun by a partial vacuum</li>
       <li>Some attach a vacuum pump to create negative pressure (drawing air in to spin the gyro), while some force air in with a positive pressure pump</li>
       <li>For light aircraft, this is usually done using a vacuum system</li>
       <li>Most dry vacuum pumps have a lifetime between 500-1000 hours</li>
       <li>Dirty air filters can slow the spinning of the gyros</li>
       <li>Be sure to include the <strong>suction gauge</strong> as part of your instrument scan</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="attitude-indicator">Attitude Indicator</h3>
+
+<ul>
+  <li>Acceleration errors
+    <ul>
+      <li>Acceleration causes the AI to momentarily show a <em>climb</em></li>
+      <li>Deceleration causes the AI to momentarily show a <em>descent</em></li>
     </ul>
   </li>
 </ul>

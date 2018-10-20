@@ -11,6 +11,8 @@ toc:
   - title: Regulations
     url: pages/instrument/regulations/
     subfolderitems: 
+      - title: Equipment
+        url: pages/instrument/regulations/equipment
       - title: ATC Services
         url: pages/instrument/regulations/atc-services
       - title: Departures
