@@ -50,4 +50,3 @@ title: Thunderstorms
 	- Hail > 3/4"
 	- Wind gusts greater than 50 knots
 	- Indication of rapidly changing conditions
-- 

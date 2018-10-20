@@ -5,7 +5,9 @@ toc:
     url: pages/instrument/flying/
     subfolderitems: 
       - title: Attitude Flying
-        url: pages/instrument/flying/attitude_flying
+        url: pages/instrument/flying/attitude-flying
+      - title: Medical Factors
+        url: pages/instrument/flying/medical-factors
   - title: Regulations
     url: pages/instrument/regulations/
     subfolderitems: 
@@ -28,12 +30,18 @@ toc:
         url: pages/instrument/systems/instruments
       - title: GPS
         url: pages/instrument/systems/gps
-      - title: High Perf. Aircraft
-        url: pages/instrument/systems/high-performance-aircraft
       - title: EFBs
         url: pages/instrument/systems/efbs
+      - title: High Perf. Aircraft
+        url: pages/instrument/systems/high-perf-aircraft
   - title: Weather
     url: pages/instrument/weather/
     subfolderitems: 
-      - title: Weather Service
-        url: pages/instrument/weather/service
+      - title: Weather Services
+        url: pages/instrument/weather/weather-services
+      - title: Weather Theory
+        url: pages/instrument/weather/weather-theory
+      - title: Icing
+        url: pages/instrument/weather/airframe-icing
+      - title: Thunderstorms
+        url: pages/instrument/weather/thunderstorms

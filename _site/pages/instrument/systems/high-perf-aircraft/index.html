@@ -11,7 +11,7 @@
 
   <title>
     
-      Arrivals &middot; L/D
+      High Performance Aircraft &middot; L/D
     
   </title>
 
@@ -171,49 +171,84 @@
 </script>
 
 <div class="page">
-  <h1 class="page-title">Arrivals</h1>
-  <h2 id="standard-terminal-arrival-routes-stars">Standard Terminal Arrival Routes (STARs)</h2>
-
-<p>Standardized transitions from the enroute to the terminal environment.</p>
+  <h1 class="page-title">High Performance Aircraft</h1>
+  <h2 id="turbocharging">Turbocharging</h2>
 
 <ul>
-  <li>RNAV arrivals must be flown using an approved IFR GPS</li>
-  <li>A descent of 250-350 feet per nm descent
+  <li>Normally aspirated engines loose power with altitude, as the air gets thinner</li>
+</ul>
+
+<blockquote>
+  <p>Turbochargers are turbines that increase the pressure of engine’s intake air.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>The compressor is also used to pressurize the cabin</p>
+  </li>
+  <li>Types
     <ul>
-      <li>At 120 knots, this is 500-700 fpm</li>
+      <li>Sea level engines: Can only produce their rated power at sea level</li>
+      <li>Altitude engine: Supercharges/turbo charged, and can maintain their rated power above sea level
+        <ul>
+          <li>Altitude turbocharger (or normalized) engines
+            <ul>
+              <li>Uses a turbocharger to maintain sea-level power at high altitudes (but doesn’t go beyond that)</li>
+            </ul>
+          </li>
+          <li>Ground boosted engines
+            <ul>
+              <li>Increases the pressure, even at sea-level</li>
+              <li>These engines have to be more robust (better heat dissipation and lubrication)</li>
+              <li>Too much manifold pressure is called <em>over-boosting</em></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The <em>critical altitude</em> is the altitude at which the engine can produce maximum continuous power, or the maximum allowable manifold pressure</li>
+  <li>Using a higher pressure and higher temperature input air causes the engine to run hotter
+    <ul>
+      <li>Some systems incorporate an <em>intercooler</em>, which cools the compressed air before it is pumped into the cylinders</li>
+      <li>Usually, subtract 1” manifold pressure for each 15 degree C drop in intake air pressure</li>
+    </ul>
+  </li>
+  <li>Turbine speed is governed by a <em>wastegate</em>
+    <ul>
+      <li>This valve controls the amount of exhaust that is directed into the turbocharger</li>
+      <li>Some airplanes tie the wastegate to the throttle
+        <ul>
+          <li>Here, you adjust the throttle to maintain a safe manifold pressure</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Some airplane do not have a wastegate
+    <ul>
+      <li>Instead they have a pressure relief valve that will let out air when the exhaust pressure gets too high</li>
+      <li>Some will control the wastegate via pressure sensors in other parts of the system</li>
     </ul>
   </li>
 </ul>
 
+<h2 id="pressurization">Pressurization</h2>
+
 <blockquote>
-  <p>Like a SID, a controller may issue a “descent via” clearance for a STAR:</p>
-  <ul>
-    <li>Here you are required to compily with the charts:
-      <ul>
-        <li>Lateral path</li>
-        <li>Airspeed crossing restrictions</li>
-        <li>Altitude crossing restrictions</li>
-      </ul>
-    </li>
-  </ul>
+  <p>A pressurization system pumps air into the cabin at a rate faster than the air can escape.</p>
 </blockquote>
 
+<p><img src="https://3.bp.blogspot.com/--Fxn8ZSLI1Y/WRObtQ0NQqI/AAAAAAAAFUQ/2peTewbT42QqRM-0iN05rGsqYkcevTXAQCLcB/s1600/41.png" alt="Differential" /></p>
+
 <ul>
-  <li>Navigate vertically via the chart until you reach the lowest altitude on the STAR</li>
-  <li>Do not turn inboard towards the airport unless you have been:
+  <li>These systems can maintain a maximum <em>pressure differential</em>
     <ul>
-      <li>Cleared for the approach, or</li>
-      <li>Cleared to intercept the final approach course</li>
-    </ul>
-  </li>
-  <li>
-    <p>The lowest altitude you will be assigned when vectoring is the minimum vectoring altitude (MVA)</p>
-  </li>
-  <li>In a non-radar environment:
-    <ul>
-      <li>Never leave an assigned altitude unless you are on a published route</li>
-      <li>Never descend below the altitude published on the chart</li>
-      <li>Don’t descend below the MDA or DA unless you have the airport in sight</li>
+      <li>With a 3.3 PSI differential:
+        <ul>
+          <li>At 7,000 feet: The cabin is at sea level pressure</li>
+          <li>At 25,000 feet: The cabin will be at 12,100 pressure altitude</li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
