@@ -84,4 +84,21 @@ title: Weather Theory
 
 ## Middle Altitude Weather
 
-- 
+- You'll need to pay careful attention to the winds aloft
+	- In the winter, it is possible to see wind speeds of up to 100 knots in the teens
+- Best westbound strategy: Climb to and maintain smooth air
+- Ice can be a problem in the middle altitudes
+	- Usually near warn fronts (especially in the summer)
+- Be careful that you don't put too much weather between your airplane and the ground; you'll have to descend through it eventually
+- Wind shear turbulence aloft: Clear air turbulence
+- Closed low aloft (Cutoff Low)
+	- Seen on 500mb chart
+	- Expect clear air turbulence
+	- Difficult to forecast the low
+	- Thus, it's difficult to predict surface weather
+
+## Nighttime Weather
+
+> Usually the best course of action is to get on the ground if the weather is bad at night. 
+
+- Bad conditions usually tend to get worse as the night goes on
