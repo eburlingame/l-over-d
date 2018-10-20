@@ -181,3 +181,13 @@ Note: Some airways may use VORs that are outside their standard service volume, 
 	- ![RNAV Route](http://www.askacfi.com/wordpress/wp-content/uploads/2008/08/t-route-maa.png)
 
 ![IFR Enroute Chart Legend](http://wiki.ke4ktz.com/images/7/73/Ifr-enroute-legend.jpg)
+
+
+## Flight Level Regulations
+
+- All aircraft must be on an IFR flight plan above 18,000 feet pressure altitude. 
+	- VFR on top is not allowed
+	- Note you are still responsible for see and avoid traffic when in VMC in Class A
+- Enroute Flight Advisory Service (EFAS): Available on 122.0
+	- Up to 17,500 feet MSL
+	- Above that, the AFD will specify facilities

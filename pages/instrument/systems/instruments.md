@@ -50,3 +50,88 @@ title: Instruments
 - Within 30nm of a Class B airport
 - Within and above Class C airspace
 - Above 10,000 MSL but not below 2,500 AGL in Class E airspace
+
+
+## Flight Director
+
+> A flight director is a visual depiction of the control inputs that are needed for the airplane to fly on a particular path. 
+
+- They exist in mechanical and electronic varieties
+- Electronic FDs use a magenta or green miniature airplane
+- Single cue FDs: An arrow that you match with the AI's arrow
+- Dual cue: Two bars, one vertical and one horizontal
+
+![Cues](https://i.ytimg.com/vi/z0DUrjCqzkA/maxresdefault.jpg)
+
+- Some FDs have a "go-around" mode
+
+## HSI
+
+> A horizontal situation indicator is a combination of a heading indicator, a omni-bearing selector (OBS), and a course deviation indicator (CDI). 
+
+![HSI Example](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Horizontal_situation_indicator-en.svg/1012px-Horizontal_situation_indicator-en.svg.png)
+
+- Also includes a heading bug, and may also show the glideslope 
+- Mechanical gyros often have a "slave" switch
+- Flying a backcourse localizer is much easier, as there is no reverse interpretation required
+
+## Autopilot
+
+![KAP 140 Install](https://airfactsjournal.com/files/2013/02/kap-140.jpg)
+
+- Dual axis autopilots use electric trim, and will attempt to keep the airplane always in trim
+	- Thus, if you pitch the nose up manually, the autopilot will command now *down* trim, fighting against you
+- Don't help the autopilot fly the airplane
+- Two primary kinds of system drive the autopilot:
+	- Rate-based (Like the KAP 140)
+		- Rate-based APs will still work in a wing-leveler mode if the vacuum system has failed
+	- Attitude-based (Like the GFC-700)
+- Be careful not to command a vertical speed climb that the airplane cannot maintain
+- Autopilot modes:
+	- Roll mode: Maintains the starting roll attitude (if it's between 6 and 22 degrees)
+	- Pitch mode: Maintain the starting pitch attitude (if it's between -15 degree to 20 degrees)
+	- Vertical speed mode: Maintains a specified climb or descent
+	- Airspeed hold (FLC, Flight Level Change): Holds the starting airspeed
+	- Heading mode: Turns and maintains a specified heading
+- GPSS: GPS Steering
+	- GPS connection directly with the autopilot, bypassing the CDI
+	- Allows the GPS to command more exact turns, and avoids overshooting waypoints
+
+> Autopilots must be disengaged below 200' AGL during approach operations. 
+
+> Auto pilots cannot be engaged below 800' AGL, *except* when in the approach mode.
+
+
+## Engine Instruments
+
+- Variable pitch propellers
+	- Akin to a transmission	
+		- "High gear" is the largest "bite" of air
+			- This is used during cruise and descents
+		- "Low gear" is the smallest "bite" of air
+			- This is used to start out and climb
+	- Using a high power setting with a low RPMcan cause engine damage
+		- This causes high cylinder temps
+		- Can cause:
+			- Preignition
+				- Premature ignition caused by hot spots in the combustion chamber
+			- Detonation
+				- Can occur when power output is high, and the mixture is lean
+	- Manifold pressure guages are required
+		- Measures the pressure of the fuel-air mixture just before it enters the cylinder
+- Air-fuel mixture
+	- A large range of ratios will burn:
+		- 8 pounds of air to 1 pound of fuel, to
+		- 18 pounds of air to 1 pound of fuel
+	- 15 to 1 has been shown to be ideal, as all the fuel is burned in the process (but this also produces the most heat)
+	- Because of this, exhaust gas temperature is a good indicator of fuel-air mixture (cylinder head temperature, CHT)
+	- The POH will prescribe which operation is best for the engine:
+		- rich-of-peak (ROP), or
+		- lean-of-peak (LOP)
+	- Adjust to maintain a specific CHT:
+		- Mixture
+		- Cowl flaps
+		- Pitch attitude
+- Turbine inlet temperature (TIT)
+	- Monitors the temperature of the exhaust gas entering the turbine of the turbo charger
+	- You'll use this gauge to lean the engine instead of CHT

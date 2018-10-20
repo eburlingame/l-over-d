@@ -129,6 +129,8 @@
 			
 		    		<a href="/l-over-d//pages/instrument/systems/gps" class="item">GPS</a>
 			
+		    		<a href="/l-over-d//pages/instrument/systems/high-performance-aircraft" class="item">High Perf. Aircraft</a>
+			
 		    		<a href="/l-over-d//pages/instrument/systems/efbs" class="item">EFBs</a>
 			
 			</div>
@@ -248,6 +250,164 @@
   <li>Within 30nm of a Class B airport</li>
   <li>Within and above Class C airspace</li>
   <li>Above 10,000 MSL but not below 2,500 AGL in Class E airspace</li>
+</ul>
+
+<h2 id="flight-director">Flight Director</h2>
+
+<blockquote>
+  <p>A flight director is a visual depiction of the control inputs that are needed for the airplane to fly on a particular path.</p>
+</blockquote>
+
+<ul>
+  <li>They exist in mechanical and electronic varieties</li>
+  <li>Electronic FDs use a magenta or green miniature airplane</li>
+  <li>Single cue FDs: An arrow that you match with the AI’s arrow</li>
+  <li>Dual cue: Two bars, one vertical and one horizontal</li>
+</ul>
+
+<p><img src="https://i.ytimg.com/vi/z0DUrjCqzkA/maxresdefault.jpg" alt="Cues" /></p>
+
+<ul>
+  <li>Some FDs have a “go-around” mode</li>
+</ul>
+
+<h2 id="hsi">HSI</h2>
+
+<blockquote>
+  <p>A horizontal situation indicator is a combination of a heading indicator, a omni-bearing selector (OBS), and a course deviation indicator (CDI).</p>
+</blockquote>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Horizontal_situation_indicator-en.svg/1012px-Horizontal_situation_indicator-en.svg.png" alt="HSI Example" /></p>
+
+<ul>
+  <li>Also includes a heading bug, and may also show the glideslope</li>
+  <li>Mechanical gyros often have a “slave” switch</li>
+  <li>Flying a backcourse localizer is much easier, as there is no reverse interpretation required</li>
+</ul>
+
+<h2 id="autopilot">Autopilot</h2>
+
+<p><img src="https://airfactsjournal.com/files/2013/02/kap-140.jpg" alt="KAP 140 Install" /></p>
+
+<ul>
+  <li>Dual axis autopilots use electric trim, and will attempt to keep the airplane always in trim
+    <ul>
+      <li>Thus, if you pitch the nose up manually, the autopilot will command now <em>down</em> trim, fighting against you</li>
+    </ul>
+  </li>
+  <li>Don’t help the autopilot fly the airplane</li>
+  <li>Two primary kinds of system drive the autopilot:
+    <ul>
+      <li>Rate-based (Like the KAP 140)
+        <ul>
+          <li>Rate-based APs will still work in a wing-leveler mode if the vacuum system has failed</li>
+        </ul>
+      </li>
+      <li>Attitude-based (Like the GFC-700)</li>
+    </ul>
+  </li>
+  <li>Be careful not to command a vertical speed climb that the airplane cannot maintain</li>
+  <li>Autopilot modes:
+    <ul>
+      <li>Roll mode: Maintains the starting roll attitude (if it’s between 6 and 22 degrees)</li>
+      <li>Pitch mode: Maintain the starting pitch attitude (if it’s between -15 degree to 20 degrees)</li>
+      <li>Vertical speed mode: Maintains a specified climb or descent</li>
+      <li>Airspeed hold (FLC, Flight Level Change): Holds the starting airspeed</li>
+      <li>Heading mode: Turns and maintains a specified heading</li>
+    </ul>
+  </li>
+  <li>GPSS: GPS Steering
+    <ul>
+      <li>GPS connection directly with the autopilot, bypassing the CDI</li>
+      <li>Allows the GPS to command more exact turns, and avoids overshooting waypoints</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Autopilots must be disengaged below 200’ AGL during approach operations.</p>
+</blockquote>
+
+<blockquote>
+  <p>Auto pilots cannot be engaged below 800’ AGL, <em>except</em> when in the approach mode.</p>
+</blockquote>
+
+<h2 id="engine-instruments">Engine Instruments</h2>
+
+<ul>
+  <li>Variable pitch propellers
+    <ul>
+      <li>Akin to a transmission
+        <ul>
+          <li>“High gear” is the largest “bite” of air
+            <ul>
+              <li>This is used during cruise and descents</li>
+            </ul>
+          </li>
+          <li>“Low gear” is the smallest “bite” of air
+            <ul>
+              <li>This is used to start out and climb</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Using a high power setting with a low RPMcan cause engine damage
+        <ul>
+          <li>This causes high cylinder temps</li>
+          <li>Can cause:
+            <ul>
+              <li>Preignition
+                <ul>
+                  <li>Premature ignition caused by hot spots in the combustion chamber</li>
+                </ul>
+              </li>
+              <li>Detonation
+                <ul>
+                  <li>Can occur when power output is high, and the mixture is lean</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Manifold pressure guages are required
+        <ul>
+          <li>Measures the pressure of the fuel-air mixture just before it enters the cylinder</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Air-fuel mixture
+    <ul>
+      <li>A large range of ratios will burn:
+        <ul>
+          <li>8 pounds of air to 1 pound of fuel, to</li>
+          <li>18 pounds of air to 1 pound of fuel</li>
+        </ul>
+      </li>
+      <li>15 to 1 has been shown to be ideal, as all the fuel is burned in the process (but this also produces the most heat)</li>
+      <li>Because of this, exhaust gas temperature is a good indicator of fuel-air mixture (cylinder head temperature, CHT)</li>
+      <li>The POH will prescribe which operation is best for the engine:
+        <ul>
+          <li>rich-of-peak (ROP), or</li>
+          <li>lean-of-peak (LOP)</li>
+        </ul>
+      </li>
+      <li>Adjust to maintain a specific CHT:
+        <ul>
+          <li>Mixture</li>
+          <li>Cowl flaps</li>
+          <li>Pitch attitude</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Turbine inlet temperature (TIT)
+    <ul>
+      <li>Monitors the temperature of the exhaust gas entering the turbine of the turbo charger</li>
+      <li>You’ll use this gauge to lean the engine instead of CHT</li>
+    </ul>
+  </li>
 </ul>
 
 </div>

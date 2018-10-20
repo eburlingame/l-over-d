@@ -11,7 +11,7 @@
 
   <title>
     
-      Holds &middot; L/D
+      High Performance Aircraft &middot; L/D
     
   </title>
 
@@ -163,109 +163,86 @@
 </script>
 
 <div class="page">
-  <h1 class="page-title">Holds</h1>
-  <p>Holds can occur at any point in an IFR flight.</p>
+  <h1 class="page-title">High Performance Aircraft</h1>
+  <h2 id="turbocharging">Turbocharging</h2>
 
 <ul>
-  <li>Enroute
-    <ul>
-      <li>You must hold if you have not reached your destination and you have reached you clearance limit (E.g. expect additional clearance at 1430)</li>
-    </ul>
-  </li>
-  <li>Departure
-    <ul>
-      <li>Some departure procedures will have you climb in a hold</li>
-    </ul>
-  </li>
-  <li>Approach
-    <ul>
-      <li>Many approach procedures use a hold for the course reversal (often instead of a procedure turn)</li>
-      <li>All missed procedures will end in a hold</li>
-    </ul>
-  </li>
-  <li>Holding pattern protected airspace depends on:
-    <ul>
-      <li>Altitude</li>
-      <li>Fix-to-NAVAID distance</li>
-      <li>Airspeed</li>
-    </ul>
-  </li>
-  <li>They compensate for minimum of 50 knot winds</li>
+  <li>Normally aspirated engines loose power with altitude, as the air gets thinner</li>
 </ul>
 
-<h2 id="controller-specified-holds">Controller-Specified Holds</h2>
+<blockquote>
+  <p>Turbochargers are turbines that increase the pressure of engine’s intake air.</p>
+</blockquote>
 
 <ul>
-  <li>Direction of hold
-    <ul>
-      <li>N, NE, E, SE, S, SW, W, NW</li>
-    </ul>
-  </li>
-  <li>Holding fix</li>
-  <li>Bearing or airway</li>
-  <li>Leg length (If DME or RNAV)</li>
-  <li>Turning direction (if it is left)</li>
-  <li>Expect further clearance time</li>
-</ul>
-
-<h2 id="standard-holding-pattern">Standard Holding Pattern</h2>
-
-<ul>
-  <li>Right turns around a fix</li>
-  <li>Maximum speeds depend on altitude:
-    <ul>
-      <li>Up to 6,000: 200 knots</li>
-      <li>6 to 14,000: 230 knots</li>
-      <li>Above 14,000: 265 knots</li>
-    </ul>
-  </li>
-  <li>Some holding patterns will have different maximum speeds charted</li>
-  <li><strong>1 minute inbound leg</strong> (1.5 minutes above 14,000 feet)</li>
-  <li>Some will specify a RNAV leg length or DME distance instead of time</li>
-  <li>ON a VOR:
-    <ul>
-      <li>Start the outbound turn at the reversal of the TO/FROM indicator</li>
-      <li>Hold heading when abeam the fix</li>
-    </ul>
-  </li>
-  <li>Use standard rate, but not more than 30 degrees</li>
-</ul>
-
-<h2 id="holding-pattern-entry">Holding Pattern Entry</h2>
-
-<p><img src="http://code7700.com/images/holding_pattern.jpg" alt="Holding pattern entry" /></p>
-
-<h3 id="teardrop-entry">Teardrop Entry</h3>
-
-<ul>
-  <li>Track to the station, then at the fix turn 30 degrees right and fly for one minute</li>
-  <li>Turn to the outbound course, then turn right towards the inbound leg</li>
-</ul>
-
-<h3 id="direct-entry">Direct Entry</h3>
-
-<ul>
-  <li>Track to the station, then make a right turn to enter the hold</li>
-</ul>
-
-<h3 id="parallel-entry">Parallel Entry</h3>
-
-<ul>
-  <li>Track to the station, then intercept the inbound course of the hold outbound</li>
   <li>
-    <p>Then make a left turn more than 180 degrees and track the inbound course</p>
+    <p>The compressor is also used to pressurize the cabin</p>
   </li>
-  <li>Rule of thumb
+  <li>Types
     <ul>
-      <li>Put your <em>left</em> thumb (for a left holding pattern) over the top left of the HI to mark the teardrop section
+      <li>Sea level engines: Can only produce their rated power at sea level</li>
+      <li>Altitude engine: Supercharges/turbo charged, and can maintain their rated power above sea level
         <ul>
-          <li>The other two sections fall into place</li>
+          <li>Altitude turbocharger (or normalized) engines
+            <ul>
+              <li>Uses a turbocharger to maintain sea-level power at high altitudes (but doesn’t go beyond that)</li>
+            </ul>
+          </li>
+          <li>Ground boosted engines
+            <ul>
+              <li>Increases the pressure, even at sea-level</li>
+              <li>These engines have to be more robust (better heat dissipation and lubrication)</li>
+              <li>Too much manifold pressure is called <em>over-boosting</em></li>
+            </ul>
+          </li>
         </ul>
       </li>
-      <li>Put your <em>right</em> thumb (for a right holding pattern) over the top right of the HI to mark the teardrop section</li>
     </ul>
   </li>
-  <li>You can also chose to always fly a teardrop or parallel entry, if you are on the side opposite the direct entry side</li>
+  <li>The <em>critical altitude</em> is the altitude at which the engine can produce maximum continuous power, or the maximum allowable manifold pressure</li>
+  <li>Using a higher pressure and higher temperature input air causes the engine to run hotter
+    <ul>
+      <li>Some systems incorporate an <em>intercooler</em>, which cools the compressed air before it is pumped into the cylinders</li>
+      <li>Usually, subtract 1” manifold pressure for each 15 degree C drop in intake air pressure</li>
+    </ul>
+  </li>
+  <li>Turbine speed is governed by a <em>wastegate</em>
+    <ul>
+      <li>This valve controls the amount of exhaust that is directed into the turbocharger</li>
+      <li>Some airplanes tie the wastegate to the throttle
+        <ul>
+          <li>Here, you adjust the throttle to maintain a safe manifold pressure</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Some airplane do not have a wastegate
+    <ul>
+      <li>Instead they have a pressure relief valve that will let out air when the exhaust pressure gets too high</li>
+      <li>Some will control the wastegate via pressure sensors in other parts of the system</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="pressurization">Pressurization</h2>
+
+<blockquote>
+  <p>A pressurization system pumps air into the cabin at a rate faster than the air can escape.</p>
+</blockquote>
+
+<p><img src="https://3.bp.blogspot.com/--Fxn8ZSLI1Y/WRObtQ0NQqI/AAAAAAAAFUQ/2peTewbT42QqRM-0iN05rGsqYkcevTXAQCLcB/s1600/41.png" alt="Differential" /></p>
+
+<ul>
+  <li>These systems can maintain a maximum <em>pressure differential</em>
+    <ul>
+      <li>With a 3.3 PSI differential:
+        <ul>
+          <li>At 7,000 feet: The cabin is at sea level pressure</li>
+          <li>At 25,000 feet: The cabin will be at 12,100 pressure altitude</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
 </div>

@@ -28,6 +28,8 @@ toc:
         url: pages/instrument/systems/instruments
       - title: GPS
         url: pages/instrument/systems/gps
+      - title: High Perf. Aircraft
+        url: pages/instrument/systems/high-performance-aircraft
       - title: EFBs
         url: pages/instrument/systems/efbs
   - title: Weather
