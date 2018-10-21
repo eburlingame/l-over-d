@@ -1,16 +1,45 @@
 ---
-layout: default
+layout: no-container
 ---
 
-<a href="{{ site.baseurl }}" class='headerImg'>
-	<img src="{{ site.baseurl }}public/img/panel.svg" />
-</a>
+<div class='header mw7 center'>
+	<a href="{{ site.baseurl }}" class='headerImg'>
+		<img src="{{ site.baseurl }}public/img/panel.svg" />
+	</a>
 
-{% include menu.html 
-	tree=site.data.instrument.toc
-	menuImage="panel.svg" %}
-
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
+	{% include menu.html 
+		tree=site.data.instrument.toc
+		menuImage="panel.svg" %}
 </div>
+
+<div class="mw7 center dark-gray lh-copy">
+  <div class='page-toc toc-right relative z-1 transition--300 absolute pa4'></div>
+
+  <div class="content js-toc-content pa4 page-content">
+	  <h1 class="page-title">{{ page.title }}</h1>
+  	{{ content }}
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(() => {
+		tocbot.init({
+		  // Where to render the table of contents.
+		  tocSelector: '.page-toc',
+		  // Where to grab the headings to build the table of contents.
+		  contentSelector: '.page-content',
+		  // Which headings to grab inside of the contentSelector element.
+		  headingSelector: 'h1, h2, h3',
+		  // Fixed position class to add to make sidebar fixed after scrolling
+		  // down past the fixedSidebarOffset.
+		  positionFixedClass: 'is-position-fixed',
+		  // fixedSidebarOffset can be any number but by default is set
+		  // to auto which sets the fixedSidebarOffset to the sidebar
+		  // element's offsetTop from the top of the document on init.
+		  fixedSidebarOffset: '150',
+		  positionFixedSelector: ".page-toc"
+		});
+	});
+</script>
