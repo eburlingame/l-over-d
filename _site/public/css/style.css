@@ -58,3 +58,7 @@ blockquote {
     display: block !important;
   }
 }
+
+.page-toc {
+    width: 100%;
+}

@@ -30,6 +30,10 @@
   <script type="text/javascript" src="/l-over-d//public/js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="/l-over-d//public/js/semantic.js"></script>
 
+  <!-- TOC JS -->
+  <script type="text/javascript" src="/l-over-d//public/js/toc.js"></script>
+  <link rel="stylesheet" href="/l-over-d//public/css/toc.css">
+
 </head>
 
 
@@ -174,7 +178,11 @@
 
 <div class="page">
   <h1 class="page-title">Thunderstorms</h1>
-  <ul>
+  <div class='page-toc ui raised segment'>
+  	
+  </div>
+  <div class='page-content'>
+  	<ul>
   <li>Greatest turbulence is found on the outskirts of the storm
     <ul>
       <li>Where the updrafts (on the edges) meet the down drafts (in the core)</li>
@@ -261,7 +269,16 @@
   <li></li>
 </ul>
 
+  </div>
 </div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	    $('.page-toc').toc({
+	    	elementClass: "page-toc"
+	    });
+	});
+</script>
       </div>
     </div>
 

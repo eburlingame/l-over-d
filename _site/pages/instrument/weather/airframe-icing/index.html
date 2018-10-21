@@ -30,6 +30,10 @@
   <script type="text/javascript" src="/l-over-d//public/js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="/l-over-d//public/js/semantic.js"></script>
 
+  <!-- TOC JS -->
+  <script type="text/javascript" src="/l-over-d//public/js/toc.js"></script>
+  <link rel="stylesheet" href="/l-over-d//public/css/toc.css">
+
 </head>
 
 
@@ -174,7 +178,11 @@
 
 <div class="page">
   <h1 class="page-title">Airframe Icing</h1>
-  <ul>
+  <div class='page-toc ui raised segment'>
+  	
+  </div>
+  <div class='page-content'>
+  	<ul>
   <li>Ice buildup on an aircraft can alter the shape of its airfoil
     <ul>
       <li>Decreases the angle of attack at which the aircraft will stall</li>
@@ -432,7 +440,16 @@
   </li>
 </ul>
 
+  </div>
 </div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	    $('.page-toc').toc({
+	    	elementClass: "page-toc"
+	    });
+	});
+</script>
       </div>
     </div>
 
