@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<a href="{{ site.baseurl }}" class='headerImg'>
+	<img src="{{ site.baseurl }}public/img/panel.svg" />
+</a>
+
+{% include menu.html 
+	tree=site.data.instrument.toc
+	menuImage="instrument.svg" %}
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  
+
+	<div id='quizProgress' style='display: none'>
+		<h2>Question <span id='questionNumber'></span> </h2>
+
+<!-- 		<div class="ui form">
+			<div class="inline fields">
+			  <div class="field" style='display: inline-block; padding-left: 2%; padding-right: 2%'>
+			    <div class="ui radio checkbox sequential">
+			      <input type="radio" name="frequency" checked="checked">
+			      <label>Sequential</label>
+			    </div>
+			  </div>
+			  <div class="field" style='display: inline-block; padding-left: 2%; padding-right: 2%'>
+			    <div class="ui radio checkbox random">
+			      <input type="radio" name="frequency">
+			      <label>Random</label>
+			    </div>
+			  </div>
+			</div> 
+		</div> -->
+	</div>
+</div>
+
+<div class="ui basic modal">
+	<i class="close icon"></i>
+	<div class="header" id='modalTitle'>
+		You did it!
+	</div>
+	<div class="image content">
+		<div class="image">
+			<i class="checkmark icon"></i>
+		</div>
+		<div class="description" id='modalDescription'>
+			<p>You finished! Would you like to go again?</p>
+		</div>
+	</div>
+	<div class="actions">
+		<div class="two fluid ui buttons">
+			<div class="ui red basic inverted button" id='noButton'>
+				<i class="remove icon"></i>
+				No
+			</div>
+				<div class="ui green basic inverted button" id='yesButton'>
+				<i class="checkmark icon"></i>
+				Yes
+			</div>
+		</div>
+	</div>
+</div>
+
+<div style='display: none' id='questionContainer'></div>
+
+
+<div style='display: none' id="quiz_content">
+	{{ content }}
+</div>
+
+<script type="text/javascript">
+	
+	$(document).ready(() => {
+		quizContent = $("#quiz_content>pre")
+			.html()
+			.split(/\r?\n/);
+
+		questions = quizContent.filter(s => s != "");
+		quizData = {
+			"name": "{{ page.title }}",
+			"questions": questions
+		};
+
+		var qv = new QuizView(
+			quizData,
+			$("#questionContainer"),
+			$("#quizProgress"));
+
+		qv.initQuiz();
+	});
+
+</script>
+

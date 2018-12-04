@@ -11,7 +11,7 @@
 
   <title>
     
-      Regulations &middot; L/D
+      IFR Review Quiz &middot; L/D
     
   </title>
 
@@ -81,7 +81,7 @@
 	</a>
 
 	<a class='menuImage' href="/l-over-d/">
-		<img src="/l-over-d/public/img/panel.svg" />
+		<img src="/l-over-d/public/img/instrument.svg" />
 	</a>
 
 	
@@ -183,161 +183,96 @@
 </script>
 
 <div class="page">
-  <h1 class="page-title">Regulations</h1>
+  <h1 class="page-title">IFR Review Quiz</h1>
+  
 
-	
-<ul>
-	
+	<div id='quizProgress' style='display: none'>
+		<h2>Question <span id='questionNumber'></span> </h2>
 
-		
-			<li>
-				<a href="/l-over-d//pages/instrument" class="item">Home</a>
-			</li>
-		
+<!-- 		<div class="ui form">
+			<div class="inline fields">
+			  <div class="field" style='display: inline-block; padding-left: 2%; padding-right: 2%'>
+			    <div class="ui radio checkbox sequential">
+			      <input type="radio" name="frequency" checked="checked">
+			      <label>Sequential</label>
+			    </div>
+			  </div>
+			  <div class="field" style='display: inline-block; padding-left: 2%; padding-right: 2%'>
+			    <div class="ui radio checkbox random">
+			      <input type="radio" name="frequency">
+			      <label>Random</label>
+			    </div>
+			  </div>
+			</div> 
+		</div> -->
+	</div>
+</div>
 
-	
+<div class="ui basic modal">
+	<i class="close icon"></i>
+	<div class="header" id='modalTitle'>
+		You did it!
+	</div>
+	<div class="image content">
+		<div class="image">
+			<i class="checkmark icon"></i>
+		</div>
+		<div class="description" id='modalDescription'>
+			<p>You finished! Would you like to go again?</p>
+		</div>
+	</div>
+	<div class="actions">
+		<div class="two fluid ui buttons">
+			<div class="ui red basic inverted button" id='noButton'>
+				<i class="remove icon"></i>
+				No
+			</div>
+				<div class="ui green basic inverted button" id='yesButton'>
+				<i class="checkmark icon"></i>
+				Yes
+			</div>
+		</div>
+	</div>
+</div>
 
-		
-			<li>
-
-				<a href="/l-over-d//pages/instrument/flying/">
-					Flying
-				</a>
-
-				<ul>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/flying/attitude-flying" class="item">Attitude Flying</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/flying/medical-factors" class="item">Medical Factors</a>
-			    		</li>
-					
-				</ul>
-			</li>
-		
-
-	
-
-		
-			<li>
-
-				<a href="/l-over-d//pages/instrument/regulations/">
-					Regulations
-				</a>
-
-				<ul>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/regulations/equipment" class="item">Equipment</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/regulations/atc-services" class="item">ATC Services</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/regulations/departures" class="item">Departures</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/regulations/enroute" class="item">Enroute</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/regulations/arrivals" class="item">Arrivals</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/regulations/holds" class="item">Holds</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/regulations/approaches" class="item">Approaches</a>
-			    		</li>
-					
-				</ul>
-			</li>
-		
-
-	
-
-		
-			<li>
-
-				<a href="/l-over-d//pages/instrument/systems/">
-					Systems
-				</a>
-
-				<ul>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/systems/instruments" class="item">Flight Insturments</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/systems/gps" class="item">GPS</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/systems/efbs" class="item">EFBs</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/systems/high-perf-aircraft" class="item">High Perf. Aircraft</a>
-			    		</li>
-					
-				</ul>
-			</li>
-		
-
-	
-
-		
-			<li>
-
-				<a href="/l-over-d//pages/instrument/weather/">
-					Weather
-				</a>
-
-				<ul>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/weather/weather-services" class="item">Weather Services</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/weather/weather-theory" class="item">Weather Theory</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/weather/airframe-icing" class="item">Icing</a>
-			    		</li>
-					
-			    		<li>
-			    			<a href="/l-over-d//pages/instrument/weather/thunderstorms" class="item">Thunderstorms</a>
-			    		</li>
-					
-				</ul>
-			</li>
-		
-
-	
-</ul>
+<div style='display: none' id='questionContainer'></div>
 
 
-  <ul>
-  <li>Major regulatory codes:
-    <ul>
-      <li>14 CFR Part 43: Maintenance and Alternations or Aircraft</li>
-      <li>14 CFR Part 61: Certification for Pilots and Instructors</li>
-      <li>14 CFR Part 91: General Operating and Flight Rules</li>
-    </ul>
-  </li>
-</ul>
+<div style='display: none' id="quiz_content">
+	<pre>
+
+A microburst can produce a downdraft of as much as *6000* feet per minute. 
+
+A mircobust can last as long as *15* minutes.
+
+</pre>
 
 </div>
+
+<script type="text/javascript">
+	
+	$(document).ready(() => {
+		quizContent = $("#quiz_content>pre")
+			.html()
+			.split(/\r?\n/);
+
+		questions = quizContent.filter(s => s != "");
+		quizData = {
+			"name": "IFR Review Quiz",
+			"questions": questions
+		};
+
+		var qv = new QuizView(
+			quizData,
+			$("#questionContainer"),
+			$("#quizProgress"));
+
+		qv.initQuiz();
+	});
+
+</script>
+
+
       </div>
     </div>
 
