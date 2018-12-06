@@ -47,3 +47,5 @@ toc:
         url: pages/instrument/weather/airframe-icing
       - title: Thunderstorms
         url: pages/instrument/weather/thunderstorms
+  - title: Quizzes
+    url: pages/instrument/quizzes

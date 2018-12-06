@@ -1,6 +1,7 @@
 ---
 layout: glider
 title: Glider Home
+show_toc: false
 ---
 
 

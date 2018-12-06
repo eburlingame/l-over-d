@@ -1,6 +1,7 @@
 ---
 layout: airplane
 title: Airplane Home
+show_toc: false
 ---
 
 ### Resources

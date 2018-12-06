@@ -1,6 +1,7 @@
 ---
 layout: instrument
 title: Instrument Home
+show_toc: false
 ---
 
 FAR 61.65 governs the instrument rating process.

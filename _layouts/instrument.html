@@ -11,15 +11,20 @@ layout: default
 	menuImage="panel.svg" %}
 
 <div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  <div class='page-toc ui raised segment'>
-  	
-  </div>
-  <div class='page-content'>
-  	{{ content }}
-  </div>
+	<h1 class="page-title">{{ page.title }}</h1>
+
+	{%if page.show_toc %}
+	<div class='page-toc ui raised segment'>
+
+	</div>
+	{%endif %}
+
+	<div class='page-content'>
+	{{ content }}
+	</div>
 </div>
 
+{%if page.show_toc %}
 <script type="text/javascript">
 	$(document).ready(function() {
 	    $('.page-toc').toc({
@@ -27,3 +32,4 @@ layout: default
 	    });
 	});
 </script>
+{%endif%}
