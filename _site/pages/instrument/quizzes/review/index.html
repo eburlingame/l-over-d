@@ -270,7 +270,7 @@ While taxiing, the *magnetic compass, compass* should swing freely and show norm
 
 When reading back an airborne IFR clearance, only read back the parts containing *altitude* assignment or *vectors*, or any parts requiring *verification*. 
 
-During a dual VOR check, the needles should center within 4 degrees of the *two indicated radials, each other*.
+During a dual VOR check, the needles should center within 4 degrees of *the two indicated radials, each other*.
 
 The very outskirts of a microburst feature an *increasing headwind*, and an unexplained *increase in performance*.
 
@@ -295,6 +295,8 @@ A thunderstorm has reached the *mature* stage when precipitation begins to fall 
 A squall line will feature sudden increases in wind speed up to *16* knots, rising to *22* knots or more, and lasting for as long as *1* minute.
 
 *Lightning* is always associated with a thunderstorm.
+
+When you fly into a thunderstorm, above all else, attempt to keep the airplane *level*.
 
 From the time the microburst hits the ground, it can last as long as *15* minutes.
 
@@ -336,11 +338,72 @@ A new ATIS will be created upon report of *official* weather, regardless of its 
 
 An ATIS report which omits the ceiling and sky conditions means that the ceiling is more than *5000* feet, and the visibility is greater than *5* miles.
 
+A pilot must *request* a contact approach, and have at least *1 mi, 1 mile* visibility and remain *clear of clouds*. 
+
+A Precision Runway Monitoring (PRM) approach may require monitoring of two *comm, communication* frequencies.
+
+If there is penetration of the obstacle identification surface (OIS) for an ILS runway equipped with MALSR, the published approach *visibility* requirements will be no lower than *3/4* s.m.
+
+Abrupt head movement during a prolonged constant rate turn in IMC or simulated instrument conditions can cause the *coriolis illusion*.
+
+AN IFR-approved GPS navigator will include a *flight manual supplement* which contains the limitations and operating procedures applicable to the equipment installed.
+
+The jet stream moves *south* in the winter, and is *stronger* than it is in the summer.
+
+As temperature increases, your true airspeed (TAS) *increases*.
+
+The alternate static source in most systems will read *lower* pressure than the normal static source. 
+
+For level flight using constant thrust, the *attitude indicator, ai* would be least appropriate for determining the need for a pitch change. 
+
+For each 1/2 mile deviation off of a desired arc, plan to correct between *10* and *20* degrees. 
+
+In a technically advanced aircraft, a warning message is a flash *red* indication with a repeating tone. 
+
+Tunnel vision and cyanosis are symptoms of *hypoxia*.
+
+To operate under IFR, a pilot must file an IFR flight plan and receive a clearance prior to *entering controlled airspace*.
+
+On a composite flight plan, transitioning from VFR to IFR should involve contacting a *FSS* and requesting they close your VFR portion, and request ATC clearance. 
+
+An abbreviated clearance will always contain the [*destination airport, destination*, and *route*].
+
+If departing IFR from an uncontrolled airfield, the pilot must advise ATC *asap, as soon as possible*, but no later than *30* minutes, if they have not departed by the void time. 
+
+You should state your position on the airport when calling the tower for a takeoff clearance when departing from a *runway intersection*. 
+
+Parallel ILS approaches provide a minimum of *1 1/2, 1-1/2, 1.5* s.m. radar separation between aircraft on the adjacent localizer course. 
+
+You cannot descend below the MDA on a non-precision approach until reaching the *visual decent point, vdp*, if the approach has one. This keeps you clear of obstacles on your final descent to the runway. 
+
+On a non-precision approach, you should be descending less than *1000* FPM at the MDA, and less than *500* FPM when you are *500* feet above the touchdown zone. 
+
+A contact approach may be used in lieu of a *SIAP, instrument approach*.
+
+If the ILS outer marker is inoperative, you may substitute a [*compass locator*  or *precision radar*]. *DME*, may also be substituted for the OM, but only when specified in the procedure.
+
+If you experience turbulence that causes slight, rapid and somewhat rhythmic bumpiness without appreciable changes in altitude or attitude, the report *light chop*. If the turbulence _does_ cause erratic changes in altitude and/or attitude, then report *light turbulence*.
+
+If the attitude indicator's horizon bar tilts more than *5* degrees while making taxi turns, assume the instrument is unreliable. 
+
+A stabilized approach is required *1000* feet above *TDZE*.
+
 </pre>
 
 </div>
 
 <script type="text/javascript">
+
+	function shuffle(a) {
+	    var j, x, i;
+	    for (i = a.length - 1; i > 0; i--) {
+	        j = Math.floor(Math.random() * (i + 1));
+	        x = a[i];
+	        a[i] = a[j];
+	        a[j] = x;
+	    }
+	    return a;
+	}
 	
 	$(document).ready(() => {
 		quizContent = $("#quiz_content>pre")
@@ -348,6 +411,8 @@ An ATIS report which omits the ceiling and sky conditions means that the ceiling
 			.split(/\r?\n/);
 
 		questions = quizContent.filter(s => s != "");
+		questions = shuffle(questions);
+		
 		quizData = {
 			"name": "IFR Review Quiz",
 			"questions": questions
